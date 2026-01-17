@@ -878,7 +878,7 @@
                     </svg>
                 </div>
             </div>
-
+<script> addEventListener("DOMContentLoaded", function () { const hidingElems = document.querySelector('.hiding__elements') const hidingElem = document.querySelectorAll('.hiding__element') const hidingBtns = document.querySelector('.hiding__element-buttons') const hidingBtn = document.querySelector('.hiding__element-button') if (hidingElem.length > 0 && hidingElems && hidingBtns && hidingBtn) { function hidingElements(num) { hidingElem.forEach((element, index) => { if (index > num) { element.classList.toggle('hide'); } if (hidingElem.length > num) { hidingBtns.classList.remove('hide'); } }); } // Устанавливаем количество отображаемых элементов function hidingElementsCounts() { const gallery = document.querySelector('.gallery') const windowWidth = window.innerWidth < 481; let num = 0; // Страница - Фотогалерея if (gallery) { num = 11; } if (gallery && windowWidth) { num = 9; } hidingElements(num); } function hidingElementsNone() { hidingElem.forEach((element, index) => { if (element.classList.contains('hide')) { setTimeout(() => { element.classList.add('none'); }, 300); } else { element.classList.remove('none'); element.offsetHeight; element.classList.remove('hide'); } }); } hidingElementsNone() hidingElementsCounts(); hidingBtn.addEventListener("click", function () { hidingElementsCounts(); hidingElementsNone() }) } }) </script>
             <div class="popup__search popup-search__block">
                 <p class="popup-search__text">Возможно, вам будет интересно</p>
                 <ul class="popup-search__list">
