@@ -1,0 +1,1448 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/css/build/build/swiper.css">
+    <link rel="stylesheet" href="assets/css/build/build/fancybox.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>Name</title>
+    <meta name='keywords' content='' />
+    <meta name='description' content='' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="assets/js/build/swiper-bundle.min.js" defer></script> 
+    <script src="assets/js/build/fancybox.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/swipers.js" defer></script>
+    <script src="assets/js/request.js" defer></script>
+    <script src="assets/js/sourcebuster.min.js" defer></script></head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__top-left">
+                    <a href="/" class="header__logo logo">
+                        <picture class='logo__picture'>
+                            <source srcset='assets/img/icons/logo.svg' type='image/svg+xml'>
+                            <img src='assets/img/icons/logo.png' alt='logo'>
+                        </picture>
+                        <div class="logo__text">
+                            <p class="logo__name">Aвиценна</p>
+                        </div>
+                    </a>
+    
+                    <div class="header__items">
+                        <div class="header__items-row">
+                            <div class="header__item">
+                                <picture class='header__item-icon'>
+                                    <source srcset='assets/img/icons/adress.svg' type='image/svg+xml'>
+                                    <img src='assets/img/icons/adress.png' alt=''>
+                                </picture>
+                                <div class="header__item-text">
+                                    <button class='button__city popup-btn' data-path='popup-city'>Ростов-на-Дону<span>ул.
+                                            Советская, д.
+                                            47</span></button>
+                                </div>
+                            </div>
+                            <div class="header__item">
+                                <picture class='header__item-icon'>
+                                    <source srcset='assets/img/icons/phone.svg' type='image/svg+xml'>
+                                    <img src='assets/img/icons/phone.png' alt=''>
+                                </picture>
+                                <div class="header__item-text">
+                                    <a href="tel:+78008899999">+7 (800) 889-99-99</a>
+                                    <span>Поддержка 24/7</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__top-right">
+                    <div class="header__icons">
+                        <form class="form-search popup-search__form white">
+                            <input type="search" placeholder="Поиск по сайту">
+                            <img src="assets/img/icons/search.svg" alt="search">
+                        </form>
+                        <button class="special-btn hover">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.02489 12.0457C1.17496 10.9415 0.75 10.3894 0.75 8.75C0.75 7.11062 1.17496 6.55853 2.02489 5.45433C3.72196 3.24956 6.56811 0.75 10.75 0.75C14.9319 0.75 17.778 3.24956 19.4751 5.45433C20.325 6.55853 20.75 7.11062 20.75 8.75C20.75 10.3894 20.325 10.9415 19.4751 12.0457C17.778 14.2504 14.9319 16.75 10.75 16.75C6.56811 16.75 3.72196 14.2504 2.02489 12.0457Z"
+                                    stroke="#52668B" stroke-width="1.5" />
+                                <path
+                                    d="M13.75 8.75C13.75 10.4069 12.4069 11.75 10.75 11.75C9.09315 11.75 7.75 10.4069 7.75 8.75C7.75 7.09315 9.09315 5.75 10.75 5.75C12.4069 5.75 13.75 7.09315 13.75 8.75Z"
+                                    stroke="#52668B" stroke-width="1.5" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="header-mobile">
+                        <div class="header__top-btns">                    
+                            <div class="burger">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="header-mobile">
+                    <div class="header__search search-wrapper">
+                        <form class="form-search popup-search__form white">
+                            <input type="search" placeholder="Поиск по сайту">
+                            <img src="assets/img/icons/search.svg" alt="search">
+                        </form>
+                        <div class="popup__search popup-search__block none">
+                            <ul class="popup-search__list">
+                                <li><a href="#">Инфузионная терапия</a></li>
+                                <li><a href="#">Медикаментозные капельницы</a></li>
+                                <li><a href="#">Капельницы красоты</a></li>
+                                <li><a href="#">Детоксикационные капельницы</a></li>
+                                <li><a href="#">Диагностика и анализы</a></li>
+                                <li><a href="#">Капельницы красоты</a></li>
+                                <li><a href="#">Другие услуги</a></li>
+                            </ul>
+                        </div>
+                        <div class="popup__search popup__search-result popup-search__block-result none">
+                            <p class="no-results-message none">К сожалению, ничего не удалось найти</p>
+                            <ul class="search-list  popup-search__list-result">
+                                <li><a href="#" class="search-name">Капельница на дому</a></li>
+                                <li><a href="#" class="search-name">Капельница для печени</a></li>
+                                <li><a href="#" class="search-name">Капельницы для сосудов</a></li>
+                                <li><a href="#" class="search-name">Капельницы при отравлении алкоголем</a></li>
+                                <li><a href="#" class="search-name">Капельница для сердца</a></li>
+                                <li><a href="#" class="search-name">Капельницы для сосудов</a></li>
+                                <li><a href="#" class="search-name">Капельницы при отравлении алкоголем</a></li>
+                                <li><a href="#" class="search-name">Капельница для сердца</a></li>
+                                <li><a href="#" class="search-name">Комплексный анализ крови </a></li>
+                                <li><a href="#" class="search-name">Чек-ап организма</a></li>
+                                <li><a href="#" class="search-name">Диагностика наркомании</a></li>
+                                <li><a href="#" class="search-name">Тестирование на наркотики</a></li>
+                                <li><a href="#" class="search-name">Диагностика алкоголизма</a></li>
+                                <li><a href="#" class="search-name">Витаминная капельница от усталости</a></li>
+                                <li><a href="#" class="search-name">Анализы на наркотики</a></li>
+                                <li><a href="#" class="search-name">Диагностика наркомании</a></li>
+                                <li><a href="#" class="search-name">Тестирование на наркотики</a></li>
+                                <li><a href="#" class="search-name">Диагностика алкоголизма</a></li>
+                            </ul>
+                        </div>
+    
+                    </div>
+                    <button class='popup-btn button hover' data-path='popup-change'>Бесплатная консультация</button>
+                </div>
+    
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">
+                                Услуги
+                            </a>
+                            <div class="header__nav-arrow">
+                                <svg width="11" height="7" viewBox="0 0 11 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.75 0.75L5.25 5.75L0.75 0.750001" stroke="#52668B" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="header__nav-sublist">
+                                <ul class="header__nav-ul">
+                                    <li>
+                                        <a href="#">Медикаментозные капельницы</a>
+                                        <div class="header__nav-arrow">
+                                            <svg width="11" height="7" viewBox="0 0 11 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.75 0.75L5.25 5.75L0.75 0.750001" stroke="#52668B"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="header__nav-sublist header__nav-subsublist">
+                                            <ul>
+                                                <li><a href="#">Медикаментозные капельницы</a></li>
+                                                <li><a href="#">Инфузионная терапия</a></li>
+                                                <li><a href="#">Капельницы красоты</a></li>
+                                                <li><a href="#">Комплексные инфузионные программы</a></li>
+                                                <li><a href="#">Диагностика и анализы</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">Инфузионная терапия</a>
+                                        <div class="header__nav-arrow">
+                                            <svg width="11" height="7" viewBox="0 0 11 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.75 0.75L5.25 5.75L0.75 0.750001" stroke="#52668B"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="header__nav-sublist header__nav-subsublist">
+                                            <ul>
+                                                <li><a href="#">Капельница на дому</a></li>
+                                                <li><a href="#">Капельница для печени</a></li>
+                                                <li><a href="#">Капельницы для сосудов</a></li>
+                                                <li><a href="#">Капельницы при отравлении алкоголем</a></li>
+                                                <li><a href="#">Капельница для сердца</a></li>
+                                                <li><a href="#">Капельница при стрессе</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Капельницы красоты</a>
+                                        <div class="header__nav-arrow">
+                                            <svg width="11" height="7" viewBox="0 0 11 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.75 0.75L5.25 5.75L0.75 0.750001" stroke="#52668B"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="header__nav-sublist header__nav-subsublist">
+                                            <ul>
+                                                <li><a href="#">Медикаментозные капельницы</a></li>
+                                                <li><a href="#">Инфузионная терапия</a></li>
+                                                <li><a href="#">Капельницы красоты</a></li>
+                                                <li><a href="#">Комплексные инфузионные программы</a></li>
+                                                <li><a href="#">Диагностика и анализы</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Комплексные инфузионные программы</a>
+                                        <div class="header__nav-arrow">
+                                            <svg width="11" height="7" viewBox="0 0 11 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.75 0.75L5.25 5.75L0.75 0.750001" stroke="#52668B"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="header__nav-sublist header__nav-subsublist">
+                                            <ul>
+                                                <li><a href="#">Медикаментозные капельницы</a></li>
+                                                <li><a href="#">Инфузионная терапия</a></li>
+                                                <li><a href="#">Капельницы красоты</a></li>
+                                                <li><a href="#">Комплексные инфузионные программы</a></li>
+                                                <li><a href="#">Диагностика и анализы</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Диагностика и анализы</a>
+                                        <div class="header__nav-arrow">
+                                            <svg width="11" height="7" viewBox="0 0 11 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.75 0.75L5.25 5.75L0.75 0.750001" stroke="#52668B"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="header__nav-sublist header__nav-subsublist">
+                                            <ul>
+                                                <li><a href="#">Медикаментозные капельницы</a></li>
+                                                <li><a href="#">Инфузионная терапия</a></li>
+                                                <li><a href="#">Капельницы красоты</a></li>
+                                                <li><a href="#">Комплексные инфузионные программы</a></li>
+                                                <li><a href="#">Диагностика и анализы</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Другие услуги</a>
+                                        <div class="header__nav-arrow">
+                                            <svg width="11" height="7" viewBox="0 0 11 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.75 0.75L5.25 5.75L0.75 0.750001" stroke="#52668B"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="header__nav-sublist header__nav-subsublist">
+                                            <ul>
+                                                <li><a href="#">Медикаментозные капельницы</a></li>
+                                                <li><a href="#">Инфузионная терапия</a></li>
+                                                <li><a href="#">Капельницы красоты</a></li>
+                                                <li><a href="#">Комплексные инфузионные программы</a></li>
+                                                <li><a href="#">Диагностика и анализы</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">
+                                О клинике
+                            </a>
+                            <div class="header__nav-arrow">
+                                <svg width="11" height="7" viewBox="0 0 11 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.75 0.75L5.25 5.75L0.75 0.750001" stroke="#52668B" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="header__nav-sublist">
+                                <ul class="header__nav-ul--dop">
+                                    <li><a href="#">Специалисты</a></li>
+                                    <li><a href="#">Отзывы</a></li>
+                                    <li><a href="#">Лицензии</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Специалисты</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Отзывы</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Лицензии</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__btns">
+                    <div class="header__icons">
+                        <a href="#" class="network">
+                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20 0.63765L16.8364 17.2506C16.8364 17.2506 16.3938 18.4025 15.1778 17.8501L7.8785 12.0204L7.84465 12.0032C8.83062 11.081 16.4762 3.92047 16.8104 3.59589C17.3276 3.09321 17.0065 2.79395 16.4059 3.17367L5.11241 10.6443L0.755409 9.11728C0.755409 9.11728 0.0697445 8.86323 0.00378194 8.31082C-0.0630486 7.7575 0.777975 7.45824 0.777975 7.45824L18.5401 0.200062C18.5401 0.200062 20 -0.468074 20 0.63765Z"
+                                    fill="#52668B" />
+                            </svg>
+                        </a>
+                        <a href="#" class="network">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.0732 2.91667C15.1916 1.04167 12.6829 0 10.0348 0C4.52961 0 0.0696853 4.44444 0.0696853 9.93056C0.0696853 11.6667 0.557491 13.4028 1.39373 14.8611L0 20L5.29617 18.6111C6.75958 19.375 8.36237 19.7917 10.0348 19.7917C15.5401 19.7917 20 15.3472 20 9.86111C19.9303 7.29167 18.9547 4.79167 17.0732 2.91667ZM14.8432 13.4722C14.6341 14.0278 13.6585 14.5833 13.1707 14.6528C12.7526 14.7222 12.1951 14.7222 11.6376 14.5833C11.2892 14.4444 10.8014 14.3056 10.2439 14.0278C7.73519 12.9861 6.13241 10.4861 5.99303 10.2778C5.85366 10.1389 4.94774 8.95833 4.94774 7.70833C4.94774 6.45833 5.57491 5.90278 5.78397 5.625C5.99303 5.34722 6.27178 5.34722 6.48084 5.34722C6.62021 5.34722 6.82927 5.34722 6.96864 5.34722C7.10801 5.34722 7.31707 5.27778 7.52613 5.76389C7.73519 6.25 8.22299 7.5 8.29268 7.56944C8.36237 7.70833 8.36237 7.84722 8.29268 7.98611C8.22299 8.125 8.15331 8.26389 8.01393 8.40278C7.87456 8.54167 7.73519 8.75 7.6655 8.81944C7.52613 8.95833 7.38676 9.09722 7.52613 9.30555C7.6655 9.58333 8.15331 10.3472 8.91986 11.0417C9.89547 11.875 10.662 12.1528 10.9408 12.2917C11.2195 12.4306 11.3589 12.3611 11.4983 12.2222C11.6376 12.0833 12.1254 11.5278 12.2648 11.25C12.4042 10.9722 12.6132 11.0417 12.8223 11.1111C13.0314 11.1806 14.2857 11.8056 14.4948 11.9444C14.7735 12.0833 14.9129 12.1528 14.9826 12.2222C15.0523 12.4306 15.0523 12.9167 14.8432 13.4722Z"
+                                    fill="#52668B" />
+                            </svg>
+                        </a>
+                        <a href="#" class="network">
+                            <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.9825 14C4.46596 14 0.178638 8.74474 0 0H3.76515C3.88882 6.41842 6.66459 9.13714 8.86321 9.6977V0H12.4085V5.53553C14.5796 5.2973 16.8607 2.77477 17.6302 0H21.1755C20.8855 1.43908 20.3075 2.80165 19.4776 4.0025C18.6477 5.20335 17.5837 6.21663 16.3523 6.97898C17.7269 7.67555 18.941 8.6615 19.9145 9.87175C20.888 11.082 21.5988 12.489 22 14H18.0974C17.7373 12.6876 17.0054 11.5128 15.9934 10.6228C14.9814 9.73284 13.7343 9.16727 12.4085 8.997V14H11.9825Z"
+                                    fill="#52668B" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__btns">
+                        <button class='popup-btn button hover' data-path='popup-change'>Бесплатная консультация</button>
+                    </div>
+                </div>
+                <div class="header-mobile">
+                    <div class="header__contact">
+                        <div class="header__contact-title">
+                            <p>Контакты</p>
+                        </div>
+                        <button class='popup-btn' data-path='popup-city'>Санкт-Петербург, ул. Авиаконструкторов
+                            45к1</button>
+                        <a href="tel:+78008899999">+7 (800) 889-99-99</a>
+                        <a href="mailto:info@kapelnica-med.ru">info@kapelnica-med.ru</a>
+                    </div>
+                    <div class="header__icons">
+                        <a href="#" class="network">
+                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20 0.63765L16.8364 17.2506C16.8364 17.2506 16.3938 18.4025 15.1778 17.8501L7.8785 12.0204L7.84465 12.0032C8.83062 11.081 16.4762 3.92047 16.8104 3.59589C17.3276 3.09321 17.0065 2.79395 16.4059 3.17367L5.11241 10.6443L0.755409 9.11728C0.755409 9.11728 0.0697445 8.86323 0.00378194 8.31082C-0.0630486 7.7575 0.777975 7.45824 0.777975 7.45824L18.5401 0.200062C18.5401 0.200062 20 -0.468074 20 0.63765Z"
+                                    fill="#52668B" />
+                            </svg>
+                        </a>
+                        <a href="#" class="network">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.0732 2.91667C15.1916 1.04167 12.6829 0 10.0348 0C4.52961 0 0.0696853 4.44444 0.0696853 9.93056C0.0696853 11.6667 0.557491 13.4028 1.39373 14.8611L0 20L5.29617 18.6111C6.75958 19.375 8.36237 19.7917 10.0348 19.7917C15.5401 19.7917 20 15.3472 20 9.86111C19.9303 7.29167 18.9547 4.79167 17.0732 2.91667ZM14.8432 13.4722C14.6341 14.0278 13.6585 14.5833 13.1707 14.6528C12.7526 14.7222 12.1951 14.7222 11.6376 14.5833C11.2892 14.4444 10.8014 14.3056 10.2439 14.0278C7.73519 12.9861 6.13241 10.4861 5.99303 10.2778C5.85366 10.1389 4.94774 8.95833 4.94774 7.70833C4.94774 6.45833 5.57491 5.90278 5.78397 5.625C5.99303 5.34722 6.27178 5.34722 6.48084 5.34722C6.62021 5.34722 6.82927 5.34722 6.96864 5.34722C7.10801 5.34722 7.31707 5.27778 7.52613 5.76389C7.73519 6.25 8.22299 7.5 8.29268 7.56944C8.36237 7.70833 8.36237 7.84722 8.29268 7.98611C8.22299 8.125 8.15331 8.26389 8.01393 8.40278C7.87456 8.54167 7.73519 8.75 7.6655 8.81944C7.52613 8.95833 7.38676 9.09722 7.52613 9.30555C7.6655 9.58333 8.15331 10.3472 8.91986 11.0417C9.89547 11.875 10.662 12.1528 10.9408 12.2917C11.2195 12.4306 11.3589 12.3611 11.4983 12.2222C11.6376 12.0833 12.1254 11.5278 12.2648 11.25C12.4042 10.9722 12.6132 11.0417 12.8223 11.1111C13.0314 11.1806 14.2857 11.8056 14.4948 11.9444C14.7735 12.0833 14.9129 12.1528 14.9826 12.2222C15.0523 12.4306 15.0523 12.9167 14.8432 13.4722Z"
+                                    fill="#52668B" />
+                            </svg>
+                        </a>
+                        <a href="#" class="network">
+                            <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.9825 14C4.46596 14 0.178638 8.74474 0 0H3.76515C3.88882 6.41842 6.66459 9.13714 8.86321 9.6977V0H12.4085V5.53553C14.5796 5.2973 16.8607 2.77477 17.6302 0H21.1755C20.8855 1.43908 20.3075 2.80165 19.4776 4.0025C18.6477 5.20335 17.5837 6.21663 16.3523 6.97898C17.7269 7.67555 18.941 8.6615 19.9145 9.87175C20.888 11.082 21.5988 12.489 22 14H18.0974C17.7373 12.6876 17.0054 11.5128 15.9934 10.6228C14.9814 9.73284 13.7343 9.16727 12.4085 8.997V14H11.9825Z"
+                                    fill="#52668B" />
+                            </svg>
+                        </a>
+                        <button class="special-btn hover">
+                            <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.34362 14.8696C1.28121 13.4893 0.75 12.7992 0.75 10.75C0.75 8.70078 1.28121 8.01066 2.34362 6.63041C4.46496 3.87445 8.02264 0.75 13.25 0.75C18.4774 0.75 22.035 3.87445 24.1564 6.63041C25.2188 8.01066 25.75 8.70078 25.75 10.75C25.75 12.7992 25.2188 13.4893 24.1564 14.8696C22.035 17.6256 18.4774 20.75 13.25 20.75C8.02264 20.75 4.46496 17.6256 2.34362 14.8696Z"
+                                    stroke="#007844" stroke-width="1.5" />
+                                <path
+                                    d="M17 10.75C17 12.8211 15.3211 14.5 13.25 14.5C11.1789 14.5 9.5 12.8211 9.5 10.75C9.5 8.67893 11.1789 7 13.25 7C15.3211 7 17 8.67893 17 10.75Z"
+                                    stroke="#007844" stroke-width="1.5" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header><main class="main">
+    <section class="banner banner--doctors section">
+        <div class="section__container container">
+            <div class="banner__wrap section__wrap">
+                <ul class="breadcrumbs">
+                    <li><a href="/">Главная</a></li>
+                    <li>Специалисты</li>
+                </ul>
+                <h1 class="section__title-h1">Наши специалисты</h1>
+                <div class="section__text">
+                    <p>В клинике «Авиценна» мы видим в каждом пациенте личность, а не просто медицинский случай. Над
+                        разработкой индивидуальной программы восстановления трудятся врачи-наркологи, психиатры, клинические
+                        психологи и специалисты по зависимостям — все с подтверждённой квалификацией, сертификатами и
+                        многолетней практикой именно в области лечения алкоголизма, наркомании и сопутствующих расстройств.
+                    </p>
+                    <p>Мы принципиально не используем шаблонные решения. Наш подход базируется на принципах доказательной
+                        медицины, но тщательно адаптируется под вашу уникальную историю, физиологические особенности,
+                        эмоциональное состояние и жизненные обстоятельства.</p>
+                    <p>В «Авиценне» вы не встретите осуждения, давления или универсальных схем. Только профессиональное
+                        отношение, полная конфиденциальность и четкая цель — вернуть вам свободу выбора и контроль над
+                        собственной жизнью.
+                    </p>
+                    <p>Помощь оказывается абсолютно анонимно, в наиболее комфортном для вас формате — амбулаторно, с выездом
+                        на дом или в условиях стационара — в зависимости от того, что действительно необходимо именно вам, а
+                        не предписанной методике.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="doctors section">
+        <div class="section__container container">
+            <div class="doctors__wrap section__wrap hiding__wrapper">
+                <div class="doctors__cards hiding__items">
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <div>
+                                <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                                <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                                <span class="doctors__card-line"></span>
+                                <div class="text-block">
+                                    <ul>
+                                        <li>Специализация: алкогольная зависимость</li>
+                                        <li>Высшая квалификационная категория</li>
+                                        <li>Член Российской наркологической ассоциации</li>
+                                        <li>Автор 15 научных публикаций</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                    <a href="#" class="doctors__card hiding__item active">
+                        <div class="doctors__card-photo">
+                            <picture class="doctors__card-picture">
+                                <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                            </picture>
+                            <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                        </div>
+                        <div class="doctors__card-info">
+                            <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                            <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                            <span class="doctors__card-line"></span>
+                            <div class="text-block">
+                                <ul>
+                                    <li>Специализация: алкогольная зависимость</li>
+                                    <li>Высшая квалификационная категория</li>
+                                    <li>Член Российской наркологической ассоциации</li>
+                                    <li>Автор 15 научных публикаций</li>
+                                </ul>
+                            </div>
+                            <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="hiding__buttons">
+                    <button class="hiding__button"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="licenses-section section">
+        <div class="section__container container">
+            <div class="licenses-section__wrap section__wrap">
+                <div class="licenses-section__title">
+                    <p>Лицензии и сертификаты</p>
+                </div>
+                <div class="licenses-section__subtitle">
+                    <p>Официальные документы, подтверждающие нашу профессиональную деятельность</p>
+                </div>
+                <div class="licenses-section__main">
+                    <div class="licenses-section__text">
+                        <p class="licenses-section__text-title">Официальная лицензированная деятельность</p>
+                        <div class="licenses-section__text-top">
+                            <p>Клиника «Авиценна» осуществляет медицинскую деятельность на основании государственной
+                                лицензии № ЛО-02-01-001234, выданной Министерством здравоохранения Республики Башкортостан.
+                            </p>
+                            <p>Наша работа полностью соответствует требованиям законодательства РФ в сфере здравоохранения и
+                                наркологической помощи. Мы используем только сертифицированные препараты и методики,
+                                одобренные Минздравом России.</p>
+                        </div>
+                        <div class="text-block">
+                            <ul>
+                                <li>Государственная лицензия на медицинскую деятельность</li>
+                                <li>Сертификаты соответствия на оборудование и препараты</li>
+                                <li>Дипломы и сертификаты всех специалистов</li>
+                                <li>Разрешительная документация на методики лечения</li>
+                                <li>Соответствие стандартам ISO 9001</li>
+                                <li>Регулярные проверки контролирующих органов</li>
+                            </ul>
+                        </div>
+                        <p>Все документы доступны для ознакомления в клинике. Мы гарантируем полную прозрачность и
+                            законность оказываемых услуг.</p>
+                    </div>
+                    <div class="licenses-section__image-wrap">
+                        <div class="licenses-section__image">
+                            <a href="assets/img/icons/licen.jpg" class="licenses__item" data-fancybox="gallery">
+                                <picture class="licenses__item-picture">
+                                    <source srcset="assets/img/icons/licen.webp" type="image/webp">
+                                    <img src="assets/img/icons/licen.jpg" loading="lazy" alt="" lading="lazy">
+                                </picture>
+                                <div class="licenses__item-discp">
+                                    <p>Лицензия на медицинскую деятельность</p>
+                                    <p>№ ЛО-02-01-001234 от 12.03.2010</p>
+                                </div>
+                            </a>
+                            <a href="assets/img/icons/licen.jpg" class="licenses__item" data-fancybox="gallery">
+                                <picture class="licenses__item-picture">
+                                    <source srcset="assets/img/icons/licen.webp" type="image/webp">
+                                    <img src="assets/img/icons/licen.jpg" loading="lazy" alt="" lading="lazy">
+                                </picture>
+                                <div class="licenses__item-discp">
+                                    <p>Лицензия на медицинскую деятельность</p>
+                                    <p>№ ЛО-02-01-001234 от 12.03.2010</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="licenses-section__links">
+                    <a class="licenses-section__link" href="#">Все лицензии</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="near section">
+        <div class="section__container container">
+            <div class="near__wrap section__wrap">
+                <div class="near__items">
+                    <div class="near__item">
+                        <div class="near__item-text">
+                            <div class="near__item-title">
+                                <p>Нужна помощь? Мы рядом!</p>
+                            </div>
+                            <div class="near__item-subtitle">
+                                <p>Получите бесплатную консультацию специалиста.
+                                    Анонимно, круглосуточно, профессионально.</p>
+                            </div>
+                        </div>
+                        <div class="near__item-phone">
+                            <a href="tel:+74994563448">+7 (499) 456-34-48</a>
+                        </div>
+                    </div>
+                    <div class="near__item">
+                        <div class="near__form-wraper">
+                            <p class="near__form-title">Оставьте свой номер телефона, и мы перезвоним вам</p>
+                            <form class="near__form form">
+                                <input type="tel" name="" placeholder="Телефон">
+                                <button type="submit" class="button hover">Перезвоните мне</button>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" checked="" required>
+                                    <span class="checkbox-icon">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="8" cy="8" r="7.5" stroke="#52668B" />
+                                            <circle cx="7.99913" cy="8.00011" r="4.44444" fill="#999" />
+                                        </svg>
+                                    </span>
+                                    <span>Нажимая кнопку я соглашаюсь с <noindex><a rel="nofollow"
+                                                href="/private-politic/">политикой конфиденциальности</a></noindex> и
+                                        <noindex><a href="/polzovatelskoe-soglashenie/" rel="nofollow">пользовательским
+                                                соглашением</a></noindex>
+                                    </span>
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section></main>
+<footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__wrap">
+            <div class="footer__top">
+                <div class="footer__top-items">
+                    <div class="footer__top-info">
+                        <div class="footer__top-logo">
+                            <a href="/" class="footer__logo logo">
+                                <picture class="logo__picture">
+                                    <source srcset="assets/img/icons/logo-footer.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/logo-footer.png" alt="logo">
+                                </picture>
+                                <div class="logo__text">
+                                    <p class="logo__name">Aвиценна</p>
+                                </div>
+                            </a>
+                            <div class="footer__top-text">
+                                <p>Профессиональное лечение зависимостей в Уфе с 2010 года. Анонимно, эффективно, с
+                                    заботой
+                                    о каждом пациенте и его семье.</p>
+                            </div>
+                        </div>
+                        <div class="footer__top-line"></div>
+                        <div class="footer__top-network">
+                            <P class="top-network__title">Мы в соцсетях:</P>
+                            <div class="top-network"> <a href="#" class="network">
+                                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20 0.63765L16.8364 17.2506C16.8364 17.2506 16.3938 18.4025 15.1778 17.8501L7.8785 12.0204L7.84465 12.0032C8.83062 11.081 16.4762 3.92047 16.8104 3.59589C17.3276 3.09321 17.0065 2.79395 16.4059 3.17367L5.11241 10.6443L0.755409 9.11728C0.755409 9.11728 0.0697445 8.86323 0.00378194 8.31082C-0.0630486 7.7575 0.777975 7.45824 0.777975 7.45824L18.5401 0.200062C18.5401 0.200062 20 -0.468074 20 0.63765Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="network">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.0732 2.91667C15.1916 1.04167 12.6829 0 10.0348 0C4.52961 0 0.0696853 4.44444 0.0696853 9.93056C0.0696853 11.6667 0.557491 13.4028 1.39373 14.8611L0 20L5.29617 18.6111C6.75958 19.375 8.36237 19.7917 10.0348 19.7917C15.5401 19.7917 20 15.3472 20 9.86111C19.9303 7.29167 18.9547 4.79167 17.0732 2.91667ZM14.8432 13.4722C14.6341 14.0278 13.6585 14.5833 13.1707 14.6528C12.7526 14.7222 12.1951 14.7222 11.6376 14.5833C11.2892 14.4444 10.8014 14.3056 10.2439 14.0278C7.73519 12.9861 6.13241 10.4861 5.99303 10.2778C5.85366 10.1389 4.94774 8.95833 4.94774 7.70833C4.94774 6.45833 5.57491 5.90278 5.78397 5.625C5.99303 5.34722 6.27178 5.34722 6.48084 5.34722C6.62021 5.34722 6.82927 5.34722 6.96864 5.34722C7.10801 5.34722 7.31707 5.27778 7.52613 5.76389C7.73519 6.25 8.22299 7.5 8.29268 7.56944C8.36237 7.70833 8.36237 7.84722 8.29268 7.98611C8.22299 8.125 8.15331 8.26389 8.01393 8.40278C7.87456 8.54167 7.73519 8.75 7.6655 8.81944C7.52613 8.95833 7.38676 9.09722 7.52613 9.30555C7.6655 9.58333 8.15331 10.3472 8.91986 11.0417C9.89547 11.875 10.662 12.1528 10.9408 12.2917C11.2195 12.4306 11.3589 12.3611 11.4983 12.2222C11.6376 12.0833 12.1254 11.5278 12.2648 11.25C12.4042 10.9722 12.6132 11.0417 12.8223 11.1111C13.0314 11.1806 14.2857 11.8056 14.4948 11.9444C14.7735 12.0833 14.9129 12.1528 14.9826 12.2222C15.0523 12.4306 15.0523 12.9167 14.8432 13.4722Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="network">
+                                    <svg width="22" height="14" viewBox="0 0 22 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.9825 14C4.46596 14 0.178638 8.74474 0 0H3.76515C3.88882 6.41842 6.66459 9.13714 8.86321 9.6977V0H12.4085V5.53553C14.5796 5.2973 16.8607 2.77477 17.6302 0H21.1755C20.8855 1.43908 20.3075 2.80165 19.4776 4.0025C18.6477 5.20335 17.5837 6.21663 16.3523 6.97898C17.7269 7.67555 18.941 8.6615 19.9145 9.87175C20.888 11.082 21.5988 12.489 22 14H18.0974C17.7373 12.6876 17.0054 11.5128 15.9934 10.6228C14.9814 9.73284 13.7343 9.16727 12.4085 8.997V14H11.9825Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__search search-wrapper">
+                            <form class="form-search popup-search__form white">
+                                <input type="search" placeholder="Поиск по сайту">
+                                <img src="assets/img/icons/search2.svg" alt="search">
+                            </form>
+                            <div class="popup__search popup__search-result popup-search__block-result none">
+                                <p class="no-results-message none">К сожалению, ничего не удалось найти</p>
+                                <ul class="search-list  popup-search__list-result">
+                                    <li><a href="#" class="search-name">Капельница на дому</a></li>
+                                    <li><a href="#" class="search-name">Капельница для печени</a></li>
+                                    <li><a href="#" class="search-name">Капельницы для сосудов</a></li>
+                                    <li><a href="#" class="search-name">Капельницы при отравлении алкоголем</a></li>
+                                    <li><a href="#" class="search-name">Капельница для сердца</a></li>
+                                    <li><a href="#" class="search-name">Капельницы для сосудов</a></li>
+                                    <li><a href="#" class="search-name">Капельницы при отравлении алкоголем</a></li>
+                                    <li><a href="#" class="search-name">Капельница для сердца</a></li>
+                                    <li><a href="#" class="search-name">Комплексный анализ крови </a></li>
+                                    <li><a href="#" class="search-name">Чек-ап организма</a></li>
+                                    <li><a href="#" class="search-name">Диагностика наркомании</a></li>
+                                    <li><a href="#" class="search-name">Тестирование на наркотики</a></li>
+                                    <li><a href="#" class="search-name">Диагностика алкоголизма</a></li>
+                                    <li><a href="#" class="search-name">Витаминная капельница от усталости</a></li>
+                                    <li><a href="#" class="search-name">Анализы на наркотики</a></li>
+                                    <li><a href="#" class="search-name">Диагностика наркомании</a></li>
+                                    <li><a href="#" class="search-name">Тестирование на наркотики</a></li>
+                                    <li><a href="#" class="search-name">Диагностика алкоголизма</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <button class="footer__special">
+                            <svg width="26" height="21" viewBox="0 0 26 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.27987 14.3048C1.25996 12.9798 0.75 12.3173 0.75 10.35C0.75 8.38275 1.25996 7.72023 2.27987 6.3952C4.31636 3.74947 7.73174 0.75 12.75 0.75C17.7683 0.75 21.1836 3.74947 23.2201 6.3952C24.24 7.72023 24.75 8.38275 24.75 10.35C24.75 12.3173 24.24 12.9798 23.2201 14.3048C21.1836 16.9505 17.7683 19.95 12.75 19.95C7.73174 19.95 4.31636 16.9505 2.27987 14.3048Z"
+                                    stroke="white" stroke-width="1.5" />
+                                <path
+                                    d="M16.3504 10.35C16.3504 12.3382 14.7386 13.95 12.7504 13.95C10.7622 13.95 9.15039 12.3382 9.15039 10.35C9.15039 8.36177 10.7622 6.75 12.7504 6.75C14.7386 6.75 16.3504 8.36177 16.3504 10.35Z"
+                                    stroke="white" stroke-width="1.5" />
+                            </svg>
+                            <p>Версия для слабовидящих</p>
+                        </button>
+                    </div>
+                    <div class="footer__top-references">
+                        <div class="top-references__items">
+                            <div class="top-references__item">
+                                <div class="top-references__item-title">
+                                    <p>Услуги</p>
+                                </div>
+
+                                <ul class="top-references__item-links">
+                                    <li class="top-references__item-link"><a href="#">Вывод из запоя</a></li>
+                                    <li class="top-references__item-link"><a href="#">Кодирование</a></li>
+                                    <li class="top-references__item-link"><a href="#">Стационарное лечение</a></li>
+                                    <li class="top-references__item-link"><a href="#">Реабилитация</a></li>
+                                    <li class="top-references__item-link"><a href="#">Психологическая помощь</a></li>
+                                </ul>
+                            </div>
+                            <div class="top-references__item">
+                                <div class="top-references__item-title">
+                                    <p>Информация</p>
+                                </div>
+                                <ul class="top-references__item-links">
+                                    <li class="top-references__item-link"><a href="#">О клинике</a></li>
+                                    <li class="top-references__item-link"><a href="#">Наши врачи</a></li>
+                                    <li class="top-references__item-link"><a href="#">Отзывы</a></li>
+                                    <li class="top-references__item-link"><a href="#">Лицензии</a></li>
+                                    <li class="top-references__item-link"><a href="#">Контакты</a></li>
+                                    <li class="top-references__item-link"><a href="#">Карта сайта</a></li>
+                                </ul>
+                            </div>
+                            <div class="top-references__item">
+                                <div class="top-references__item-title">
+                                    <p>Контакты</p>
+                                </div>
+                                <ul class="top-references__item-links">
+                                    <li class="top-references__item-link"><a href="tel:+7 (499) 456-34-48">+7 (499)
+                                            456-34-48</a></li>
+                                    <li class="top-references__item-link"><a
+                                            href="mailto:info@avicenna-ufa.ru">info@avicenna-ufa.ru</a></li>
+                                    <li class="top-references__item-link"><button class="popup-btn"
+                                            data-path="popup-city">г. Уфа, ул. Примерная, д. 123</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="top-references__clinic-rating">
+                            <div class="clinic-rating">
+                                <div class="clinic-rating__title">
+                                    <p>Рейтинг клиники</p>
+                                </div>
+                                <div class="clinic-rating__img">
+                                    <picture class='clinic-rating__picture'>
+                                        <source srcset='assets/img/icons/stars.svg' type='image/svg+xml'>
+                                        <img src='assets/img/icons/stars.png' alt='logo'>
+                                    </picture>
+                                    <p class="clinic-rating__text">4.9/5 на основе 127 отзывов</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-references__payment-methods">
+                            <div class="payment-methods">
+                                <div class="payment-methods__title">
+                                    <p>Способы оплаты</p>
+                                </div>
+                                <div class="payment-methods__elems">
+                                    <div class="payment-methods__elem">
+                                        <picture class='payment-methods__picture'>
+                                            <source srcset='assets/img/icons/payment1.svg' type='image/svg+xml'>
+                                            <img src='assets/img/icons/payment1.png' alt='logo'>
+                                        </picture>
+                                        <p>Наличные</p>
+                                    </div>
+                                    <div class="payment-methods__elem">
+                                        <picture class='payment-methods__picture'>
+                                            <source srcset='assets/img/icons/payment2.svg' type='image/svg+xml'>
+                                            <img src='assets/img/icons/payment2.png' alt='logo'>
+                                        </picture>
+                                        <p>СБП</p>
+                                    </div>
+                                    <div class="payment-methods__elem">
+                                        <picture class='payment-methods__picture'>
+                                            <source srcset='assets/img/icons/payment3.svg' type='image/svg+xml'>
+                                            <img src='assets/img/icons/payment3.png' alt='logo'>
+                                        </picture>
+                                        <p>Карты</p>
+                                    </div>
+                                    <div class="payment-methods__elem">
+                                        <picture class='payment-methods__picture'>
+                                            <source srcset='assets/img/icons/payment4.svg' type='image/svg+xml'>
+                                            <img src='assets/img/icons/payment4.png' alt='logo'>
+                                        </picture>
+                                        <p>QR-код</p>
+                                    </div>
+                                    <div class="payment-methods__elem">
+                                        <picture class='payment-methods__picture'>
+                                            <source srcset='assets/img/icons/payment5.svg' type='image/svg+xml'>
+                                            <img src='assets/img/icons/payment5.png' alt='logo'>
+                                        </picture>
+                                        <p>Перевод</p>
+                                    </div>
+                                    <div class="payment-methods__elem">
+                                        <picture class='payment-methods__picture'>
+                                            <source srcset='assets/img/icons/payment6.svg' type='image/svg+xml'>
+                                            <img src='assets/img/icons/payment6.png' alt='logo'>
+                                        </picture>
+                                        <p>Рассрочка</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom__elems">
+                    <div class="footer__bottom__elem">
+                        <p>© 2024 Наркологическая клиника «Авиценна». Все права защищены. Лицензия № ЛО-02-01-001234 от
+                            12.03.2010</p>
+                    </div>
+                    <div class="footer__bottom__elem footer__bottom__elem--links">
+                        <a class="footer__bottom__elem-link" href="#">Согласие на обработку персональных данных</a>
+                        <a class="footer__bottom__elem-link" href="#">Политика обработки персональных данных</a>
+                        <a class="footer__bottom__elem-link" href="#">Пользовательское соглашение</a>
+                        <a class="footer__bottom__elem-link" href="#">Политика конфиденциальности</a>
+                        <a class="footer__bottom__elem-link" href="#">Согласие на обработку с помощью сервиса
+                            Яндекс.Метрика</a>
+                        <a class="footer__bottom__elem-link" href="#">Карта сайта</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+<!-- Pop-up change -->
+<div class="popup" data-target="popup-change">
+    <div class="popup__body">
+        <div class="popup__content popup-change__content">
+            <div class="close-popup close-popup-btn popup-change__close">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.7">
+                        <path d="M17 1L1 17.0001" stroke="white" stroke-width="2" stroke-linecap="round" />
+                        <path d="M17 17.0001L1 1.00003" stroke="white" stroke-width="2" stroke-linecap="round" />
+                    </g>
+                </svg>
+            </div>
+
+            <div class="popup-change__text">
+                <p class="popup-change__title title-h2 original-title">Не знаете какая капельница или процедура
+                    вам подойдет?</p>
+                <p class="popup-change__subtitle">Оставьте заявку, наш специалист перезвонит вам и бесплатно
+                    проконсультирует вас</p>
+            </div>
+
+            <form class="form__wrap">
+                <input name='catalogue' type='hidden' value='<?= $current_catalogue["Catalogue_ID"] ?>' />
+                <input name="bitrixID" type="hidden" value='<?= $current_catalogue["BitrixID"] ?>'>
+                <input name='city' type='hidden' value='<?= $current_catalogue["Catalogue_Name"] ?>' />
+                <input name='type' type='hidden' value='request' />
+                <input name='cc' type='hidden' value='2' />
+                <input name='sub' type='hidden' value='8' />
+                <input name='mes' type='hidden' value='22' />
+                <input name="urlMessage" type="hidden" value="">
+                <input name="title_url_message" type="hidden" value=""> <input type="text" name="params[name][]"
+                    class="input form__input" placeholder="Ваше имя" required>
+                <input type="tel" name="params[phone][]" class="input form__input" placeholder="Ваш номер телефона"
+                    required>
+                <button type="submit" class="tertiary-btn form__btn">Отправить заявку</button>
+                <div class="politic form__politic">
+                    <input type="checkbox" name="politic" id="politic1">
+                    <label for="politic1">Нажимая кнопку я соглашаюсь с <a href="#" rel="nofollow">политикой
+                            конфединциальности</a> и <a href="#" rel="nofollow">пользовательским
+                            соглашением</a></label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- popup-city-2 -->
+<div class="popup" data-target="popup-city">
+    <div class="popup__body">
+        <div class="popup__content popup-city__content search-wrapper">
+            <div class="close-popup close-popup-btn popup-city__close">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.7">
+                        <path d="M17 1L1 17.0001" stroke="#3D5B4E" stroke-width="2" stroke-linecap="round" />
+                        <path d="M17 17L1 0.999943" stroke="#3D5B4E" stroke-width="2" stroke-linecap="round" />
+                    </g>
+                </svg>
+            </div>
+
+            <p class="popup-city__title">Укажите ваш город</p>
+            <form class="form-search popup-city__form white">
+                <input type="search" placeholder="Поиск по городам">
+                <img src="assets/img/icons/search.svg" alt="search">
+            </form>
+
+            <div class="popup__search popup-city__search">
+                <p class="popup-city__text">Популярные города:</p>
+                <div class="popup-city__list list">
+                    <ul>
+                        <li><a href="#" class="">Москва</a></li>
+                        <li><a href="#" class="">Нижний Новгород</a></li>
+                        <li><a href="#" class="">Оренбург</a></li>
+                        <li><a href="#" class="">Уфа</a></li>
+                        <li><a href="#" class="">Старый Оскол</a></li>
+                        <li><a href="#" class="">Санкт-Петербург</a></li>
+                        <li><a href="#" class="">Комсомольск-на-Амуре</a></li>
+                        <li><a href="#" class="">Саранск</a></li>
+                        <li><a href="#" class="">Севастополь</a></li>
+                        <li><a href="#" class="">Волгоград</a></li>
+                        <li><a href="#" class="">Архангельск</a></li>
+                        <li><a href="#" class="">Краснодар</a></li>
+                        <li><a href="#" class="">Севастополь</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="popup__search popup__search-result popup-city__search-result none">
+                <p class="no-results-message popup-city__text none">К сожалению, ничего не удалось найти</p>
+                <ul class="search-list popup-city__list-result">
+                    <li><a href="#" class="search-name">Владивосток</a></li>
+                    <li><a href="#" class="search-name">Москва </a></li>
+                    <li><a href="#" class="search-name">Великий Новгород</a></li>
+                    <li><a href="#" class="search-name">Санкт-Петербург</a></li>
+                    <li><a href="#" class="search-name">Волгоград</a></li>
+                    <li><a href="#" class="search-name">Уфа</a></li>
+                    <li><a href="#" class="search-name">Нижний Новгород</a></li>
+                    <li><a href="#" class="search-name">Ростов-на-Дону</a></li>
+                    <li><a href="#" class="search-name">Саранск</a></li>
+                    <li><a href="#" class="search-name">Краснодар</a></li>
+                    <li><a href="#" class="search-name">Архангельск</a></li>
+                    <li><a href="#" class="search-name">Севастополь</a></li>
+                    <li><a href="#" class="search-name">Саранск</a></li>
+                    <li><a href="#" class="search-name">Краснодар</a></li>
+                    <li><a href="#" class="search-name">Архангельск</a></li>
+                    <li><a href="#" class="search-name">Севастополь</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- popup search 2 -->
+<div class="popup" data-target="popup-search">
+    <div class="popup__body popup-search__body">
+        <div class="popup__content popup-search__content search-wrapper">
+
+            <div class="popup-search__top">
+                <form class="form-search popup-search__form white">
+                    <input type="search" placeholder="Поиск по сайту">
+                    <img src="assets/img/icons/search.svg" alt="search">
+                </form>
+
+                <div class="close-popup-btn popup-search__close">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.7">
+                            <path d="M17 1L1 17.0001" stroke="#3D5B4E" stroke-width="2" stroke-linecap="round" />
+                            <path d="M17 17L1 0.999943" stroke="#3D5B4E" stroke-width="2" stroke-linecap="round" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="popup__search popup-search__block">
+                <p class="popup-search__text">Возможно, вам будет интересно</p>
+                <ul class="popup-search__list">
+                    <li><a href="#">Комплексный анализ крови </a></li>
+                    <li><a href="#">Чек-ап организма</a></li>
+                    <li><a href="#">Анализы на наркотики</a></li>
+                    <li><a href="#">Наркологическое освидетельствование</a></li>
+                    <li><a href="#">Диагностика наркомании</a></li>
+                    <li><a href="#">Тестирование на наркотики</a></li>
+                    <li><a href="#">Диагностика алкоголизма</a></li>
+                    <li><a href="#">Диагностика компьютерной зависимости</a></li>
+                    <li><a href="#">Витаминная капельница от усталости</a></li>
+                    <li><a href="#">Чек-ап организма</a></li>
+                    <li><a href="#">Анализы на наркотики</a></li>
+                    <li><a href="#">Наркологическое освидетельствование</a></li>
+                    <li><a href="#">Диагностика наркомании</a></li>
+                    <li><a href="#">Тестирование на наркотики</a></li>
+                    <li><a href="#">Диагностика алкоголизма</a></li>
+                    <li><a href="#">Диагностика компьютерной зависимости</a></li>
+                    <li><a href="#">Анализы на наркотики</a></li>
+                    <li><a href="#">Наркологическое освидетельствование</a></li>
+                    <li><a href="#">Диагностика наркомании</a></li>
+                    <li><a href="#">Тестирование на наркотики</a></li>
+                </ul>
+            </div>
+
+            <div class="popup__search popup__search-result popup-search__block-result none">
+                <p class="no-results-message none">К сожалению, ничего не удалось найти</p>
+                <ul class="search-list  popup-search__list-result">
+                    <li><a href="#" class="search-name">Капельница на дому</a></li>
+                    <li><a href="#" class="search-name">Капельница для печени</a></li>
+                    <li><a href="#" class="search-name">Капельницы для сосудов</a></li>
+                    <li><a href="#" class="search-name">Капельницы при отравлении алкоголем</a></li>
+                    <li><a href="#" class="search-name">Капельница для сердца</a></li>
+                    <li><a href="#" class="search-name">Капельницы для сосудов</a></li>
+                    <li><a href="#" class="search-name">Капельницы при отравлении алкоголем</a></li>
+                    <li><a href="#" class="search-name">Капельница для сердца</a></li>
+                    <li><a href="#" class="search-name">Комплексный анализ крови </a></li>
+                    <li><a href="#" class="search-name">Чек-ап организма</a></li>
+                    <li><a href="#" class="search-name">Диагностика наркомании</a></li>
+                    <li><a href="#" class="search-name">Тестирование на наркотики</a></li>
+                    <li><a href="#" class="search-name">Диагностика алкоголизма</a></li>
+                    <li><a href="#" class="search-name">Витаминная капельница от усталости</a></li>
+                    <li><a href="#" class="search-name">Анализы на наркотики</a></li>
+                    <li><a href="#" class="search-name">Диагностика наркомании</a></li>
+                    <li><a href="#" class="search-name">Тестирование на наркотики</a></li>
+                    <li><a href="#" class="search-name">Диагностика алкоголизма</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- popup cokie -->
+</body>
+</html>
