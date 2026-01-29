@@ -371,23 +371,164 @@
     
     
     
-     <section class="banner section">
+     <section class="banner banner--contact section">
          <div class="section__container container">
              <div class="banner__wrap section__wrap">
                  <ul class="breadcrumbs">
                      <li><a href="/">Главная</a></li>
-                     <li><a href="#">О клинике</a></li>
-                     <li>Фотогалерея</li>
+                     <li>Контакты</li>
                  </ul>
-                 <h1 class="section__title-h1">Фотографии нашей клиники</h1>
+                 <h1 class="section__title-h1">Контакты клиники «Авиценна»</h1>
+                 <p class="section__subtitle">Современная диагностика и комплексное лечение. Запись на прием онлайн.
+                 </p>
+                 <div class="section__advantages">
+                     <div class="section__advantage">
+                         <p>Круглосуточно</p>
+                     </div>
+                     <div class="section__advantage">
+                         <p>Диагностика</p>
+                     </div>
+                     <div class="section__advantage">
+                         <p>Лицензия</p>
+                     </div>
+                 </div>
              </div>
          </div>
      </section>
-     <section class="gallery section">
+     <div class="contact section">
          <div class="container">
-             <div class="gallery__wrapper hiding__wrapper">
-                 <div class="gallery__items hiding__items">
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
+             <div class="contact__items">
+                 <div class="contact__item">
+                     <div class="contact__map-show">
+                         <div id="map"></div>
+                     </div>
+                 </div>
+                 <div class="contact__item contact__item--info">
+                     <div class="contact__title">
+                         <p>Как с нами связаться</p>
+                     </div>
+                     <div class="contact__connection-wrap">
+                         <div class="contact__connection">
+                             <div class="contact__connection-top">
+                                 <picture class="contact__connection-picture">
+                                     <source srcset="assets/img/icons/connecti1.webp" type="image/webp">
+                                     <img src="assets/img/icons/connecti1.jpg" loading="lazy" alt="">
+                                 </picture>
+                                 <a href="tel:++7 (499) 456-34-48">+7 (499) 456-34-48</a>
+                             </div>
+                             <p class="contact__connection-description">Единый call-центр. Запись на прием и консультации.
+                             </p>
+                         </div>
+                         <div class="contact__connection">
+                             <div class="contact__connection-top">
+                                 <picture class="contact__connection-picture">
+                                     <source srcset="assets/img/icons/connecti2.webp" type="image/webp">
+                                     <img src="assets/img/icons/connecti2.jpg" loading="lazy" alt="">
+                                 </picture>
+                                 <p>г. Уфа, ул. Лечебная, 15</p>
+                             </div>
+                             <p class="contact__connection-description">Медицинский центр, 3 этаж. Парковка для пациентов.
+                             </p>
+                         </div>
+                         <div class="contact__connection">
+                             <div class="contact__connection-top">
+                                 <picture class="contact__connection-picture">
+                                     <source srcset="assets/img/icons/connecti3.webp" type="image/webp">
+                                     <img src="assets/img/icons/connecti3.jpg" loading="lazy" alt="">
+                                 </picture>
+                                 <p>Пн–Сб: 8:00-21:00, Вс: 9:00-18:00</p>
+                             </div>
+                             <p class="contact__connection-description">Диагностика и консультации
+                                 по предварительной записи.
+                             </p>
+                         </div>
+                         <div class="contact__connection">
+                             <div class="contact__connection-top">
+                                 <picture class="contact__connection-picture">
+                                     <source srcset="assets/img/icons/connecti4.webp" type="image/webp">
+                                     <img src="assets/img/icons/connecti4.jpg" loading="lazy" alt="">
+                                 </picture>
+                                 <a href="mailto:info@avicenna.clinic">info@avicenna.clinic</a>
+                             </div>
+                             <p class="contact__connection-description">Для вопросов и записи</p>
+                         </div>
+                     </div>
+                     <div class="contact__connection-btns">
+                         <button class="popup-btn button hover" data-path="popup-change">Позвонить</button>
+                         <button class="contact__connection-btn">Написать на почту</button>
+                         <div class="contact__icons">
+                             <a href="#" class="network network--contact">
+                                 <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                     <path
+                                         d="M20 0.63765L16.8364 17.2506C16.8364 17.2506 16.3938 18.4025 15.1778 17.8501L7.8785 12.0204L7.84465 12.0032C8.83062 11.081 16.4762 3.92047 16.8104 3.59589C17.3276 3.09321 17.0065 2.79395 16.4059 3.17367L5.11241 10.6443L0.755409 9.11728C0.755409 9.11728 0.0697445 8.86323 0.00378194 8.31082C-0.0630486 7.7575 0.777975 7.45824 0.777975 7.45824L18.5401 0.200062C18.5401 0.200062 20 -0.468074 20 0.63765Z"
+                                         fill="#52668B"></path>
+                                 </svg>
+                             </a>
+                             <a href="#" class="network network--contact">
+                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                     <path
+                                         d="M17.0732 2.91667C15.1916 1.04167 12.6829 0 10.0348 0C4.52961 0 0.0696853 4.44444 0.0696853 9.93056C0.0696853 11.6667 0.557491 13.4028 1.39373 14.8611L0 20L5.29617 18.6111C6.75958 19.375 8.36237 19.7917 10.0348 19.7917C15.5401 19.7917 20 15.3472 20 9.86111C19.9303 7.29167 18.9547 4.79167 17.0732 2.91667ZM14.8432 13.4722C14.6341 14.0278 13.6585 14.5833 13.1707 14.6528C12.7526 14.7222 12.1951 14.7222 11.6376 14.5833C11.2892 14.4444 10.8014 14.3056 10.2439 14.0278C7.73519 12.9861 6.13241 10.4861 5.99303 10.2778C5.85366 10.1389 4.94774 8.95833 4.94774 7.70833C4.94774 6.45833 5.57491 5.90278 5.78397 5.625C5.99303 5.34722 6.27178 5.34722 6.48084 5.34722C6.62021 5.34722 6.82927 5.34722 6.96864 5.34722C7.10801 5.34722 7.31707 5.27778 7.52613 5.76389C7.73519 6.25 8.22299 7.5 8.29268 7.56944C8.36237 7.70833 8.36237 7.84722 8.29268 7.98611C8.22299 8.125 8.15331 8.26389 8.01393 8.40278C7.87456 8.54167 7.73519 8.75 7.6655 8.81944C7.52613 8.95833 7.38676 9.09722 7.52613 9.30555C7.6655 9.58333 8.15331 10.3472 8.91986 11.0417C9.89547 11.875 10.662 12.1528 10.9408 12.2917C11.2195 12.4306 11.3589 12.3611 11.4983 12.2222C11.6376 12.0833 12.1254 11.5278 12.2648 11.25C12.4042 10.9722 12.6132 11.0417 12.8223 11.1111C13.0314 11.1806 14.2857 11.8056 14.4948 11.9444C14.7735 12.0833 14.9129 12.1528 14.9826 12.2222C15.0523 12.4306 15.0523 12.9167 14.8432 13.4722Z"
+                                         fill="#52668B"></path>
+                                 </svg>
+                             </a>
+                             <a href="#" class="network network--contact">
+                                 <svg width="22" height="14" viewBox="0 0 22 14" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                     <path
+                                         d="M11.9825 14C4.46596 14 0.178638 8.74474 0 0H3.76515C3.88882 6.41842 6.66459 9.13714 8.86321 9.6977V0H12.4085V5.53553C14.5796 5.2973 16.8607 2.77477 17.6302 0H21.1755C20.8855 1.43908 20.3075 2.80165 19.4776 4.0025C18.6477 5.20335 17.5837 6.21663 16.3523 6.97898C17.7269 7.67555 18.941 8.6615 19.9145 9.87175C20.888 11.082 21.5988 12.489 22 14H18.0974C17.7373 12.6876 17.0054 11.5128 15.9934 10.6228C14.9814 9.73284 13.7343 9.16727 12.4085 8.997V14H11.9825Z"
+                                         fill="#52668B"></path>
+                                 </svg>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div class="transport section">
+         <div class="container">
+             <div class="transport__items">
+                 <div class="transport__item">
+                     <div class="transport__item-top">
+                         <p class="transport__item-title">Скидка постоянным клиентам</p>
+                     </div>
+                     <div class="transport__item-bottom">
+                         <p class="transport__item-discription">Остановка "Медицинский центр": автобусы 18, 24, 45;
+                             троллейбусы 2, 7</p>
+                     </div>
+                 </div>
+                 <div class="transport__item">
+                     <div class="transport__item-top">
+                         <p class="transport__item-title">Автомобиль</p>
+                     </div>
+                     <div class="transport__item-bottom">
+                         <p class="transport__item-discription">Бесплатная парковка для пациентов на 25 мест. Подземный
+                             паркинг.</p>
+                     </div>
+                 </div>
+                 <div class="transport__item">
+                     <div class="transport__item-top">
+                         <p class="transport__item-title">Такси</p>
+                     </div>
+                     <div class="transport__item-bottom">
+                         <p class="transport__item-discription">Специальная зона высадки у главного входа. Крытая территория.
+                         </p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <section class="fotogalerie section">
+         <div class="section__container container">
+             <div class="section__main">
+                 <p class="section__title">Фотогалерея клиники</p>
+                 <div class="section__discription">
+                     <p>Современное оборудование и комфортные условия для эффективного лечения</p>
+                 </div>
+                 <div class="gallery__items active">
+                     <a href="assets/img/icons/image.jpg" class="gallery__item active" data-fancybox="gallery">
                          <picture class="gallery__item-picture">
                              <source srcset="assets/img/icons/image.webp" type="image/webp">
                              <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
@@ -396,7 +537,7 @@
                              <p>Современное диагностическое оборудование</p>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
+                     <a href="assets/img/icons/image.jpg" class="gallery__item active" data-fancybox="gallery">
                          <picture class="gallery__item-picture">
                              <source srcset="assets/img/icons/image.webp" type="image/webp">
                              <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
@@ -405,7 +546,7 @@
                              <p>Современное диагностическое оборудование</p>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
+                     <a href="assets/img/icons/image.jpg" class="gallery__item active" data-fancybox="gallery">
                          <picture class="gallery__item-picture">
                              <source srcset="assets/img/icons/image.webp" type="image/webp">
                              <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
@@ -414,7 +555,7 @@
                              <p>Современное диагностическое оборудование</p>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
+                     <a href="assets/img/icons/image.jpg" class="gallery__item active" data-fancybox="gallery">
                          <picture class="gallery__item-picture">
                              <source srcset="assets/img/icons/image.webp" type="image/webp">
                              <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
@@ -423,7 +564,7 @@
                              <p>Современное диагностическое оборудование</p>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
+                     <a href="assets/img/icons/image.jpg" class="gallery__item active" data-fancybox="gallery">
                          <picture class="gallery__item-picture">
                              <source srcset="assets/img/icons/image.webp" type="image/webp">
                              <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
@@ -432,79 +573,7 @@
                              <p>Современное диагностическое оборудование</p>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
+                     <a href="assets/img/icons/image.jpg" class="gallery__item active" data-fancybox="gallery">
                          <picture class="gallery__item-picture">
                              <source srcset="assets/img/icons/image.webp" type="image/webp">
                              <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
@@ -514,8 +583,54 @@
                          </div>
                      </a>
                  </div>
-                 <div class="hiding__buttons">
-                     <button class="hiding__button"></button>
+                 <div class="fotogalerie__links">
+                     <a class="fotogalerie__link" href="#">Все фотогрфии</a>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="near section">
+         <div class="section__container container">
+             <div class="near__wrap section__wrap">
+                 <div class="near__items">
+                     <div class="near__item">
+                         <div class="near__item-text">
+                             <div class="near__item-title">
+                                 <p>Нужна помощь? Мы рядом!</p>
+                             </div>
+                             <div class="near__item-subtitle">
+                                 <p>Получите бесплатную консультацию специалиста.
+                                     Анонимно, круглосуточно, профессионально.</p>
+                             </div>
+                         </div>
+                         <div class="near__item-phone">
+                             <a href="tel:+74994563448">+7 (499) 456-34-48</a>
+                         </div>
+                     </div>
+                     <div class="near__item">
+                         <div class="near__form-wraper">
+                             <p class="near__form-title">Оставьте свой номер телефона, и мы перезвоним вам</p>
+                             <form class="near__form form">
+                                 <input type="tel" name="" placeholder="Телефон">
+                                 <button type="submit" class="button hover">Перезвоните мне</button>
+                                 <label class="custom-checkbox">
+                                     <input type="checkbox" checked="" required>
+                                     <span class="checkbox-icon">
+                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <circle cx="8" cy="8" r="7.5" stroke="#52668B" />
+                                             <circle cx="7.99913" cy="8.00011" r="4.44444" fill="#999" />
+                                         </svg>
+                                     </span>
+                                     <span>Нажимая кнопку я соглашаюсь с <noindex><a rel="nofollow"
+                                                 href="/private-politic/">политикой конфиденциальности</a></noindex> и
+                                         <noindex><a href="/polzovatelskoe-soglashenie/" rel="nofollow">пользовательским
+                                                 соглашением</a></noindex>
+                                     </span>
+                                 </label>
+                             </form>
+                         </div>
+                     </div>
                  </div>
              </div>
          </div>

@@ -371,151 +371,661 @@
     
     
     
-     <section class="banner section">
+     <section class="banner banner--doctors section">
          <div class="section__container container">
              <div class="banner__wrap section__wrap">
                  <ul class="breadcrumbs">
                      <li><a href="/">Главная</a></li>
-                     <li><a href="#">О клинике</a></li>
-                     <li>Фотогалерея</li>
+                     <li>Специалисты</li>
                  </ul>
-                 <h1 class="section__title-h1">Фотографии нашей клиники</h1>
+                 <h1 class="section__title-h1">Наши специалисты</h1>
+                 <div class="section__text">
+                     <p>В клинике «Авиценна» мы видим в каждом пациенте личность, а не просто медицинский случай. Над
+                         разработкой индивидуальной программы восстановления трудятся врачи-наркологи, психиатры, клинические
+                         психологи и специалисты по зависимостям — все с подтверждённой квалификацией, сертификатами и
+                         многолетней практикой именно в области лечения алкоголизма, наркомании и сопутствующих расстройств.
+                     </p>
+                     <p>Мы принципиально не используем шаблонные решения. Наш подход базируется на принципах доказательной
+                         медицины, но тщательно адаптируется под вашу уникальную историю, физиологические особенности,
+                         эмоциональное состояние и жизненные обстоятельства.</p>
+                     <p>В «Авиценне» вы не встретите осуждения, давления или универсальных схем. Только профессиональное
+                         отношение, полная конфиденциальность и четкая цель — вернуть вам свободу выбора и контроль над
+                         собственной жизнью.
+                     </p>
+                     <p>Помощь оказывается абсолютно анонимно, в наиболее комфортном для вас формате — амбулаторно, с выездом
+                         на дом или в условиях стационара — в зависимости от того, что действительно необходимо именно вам, а
+                         не предписанной методике.
+                     </p>
+                 </div>
              </div>
          </div>
      </section>
-     <section class="gallery section">
-         <div class="container">
-             <div class="gallery__wrapper hiding__wrapper">
-                 <div class="gallery__items hiding__items">
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+     
+     <section class="doctors section">
+         <div class="section__container container">
+             <div class="doctors__wrap section__wrap hiding__wrapper">
+                 <div class="doctors__cards hiding__items">
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <div>
+                                 <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                                 <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                                 <span class="doctors__card-line"></span>
+                                 <div class="text-block">
+                                     <ul>
+                                         <li>Специализация: алкогольная зависимость</li>
+                                         <li>Высшая квалификационная категория</li>
+                                         <li>Член Российской наркологической ассоциации</li>
+                                         <li>Автор 15 научных публикаций</li>
+                                     </ul>
+                                 </div>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                         </div>
+                     </a>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                         </div>
+                     </a>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                         </div>
+                     </a>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                         </div>
+                     </a>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                         </div>
+                     </a>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                         </div>
+                     </a>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                         </div>
+                     </a>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
+                         </div>
+                     </a>
+                     <a href="#" class="doctors__card hiding__item active">
+                         <div class="doctors__card-photo">
+                             <picture class="doctors__card-picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                             </picture>
+                             <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctors__card-info">
+                             <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                             <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                             <span class="doctors__card-line"></span>
+                             <div class="text-block">
+                                 <ul>
+                                     <li>Специализация: алкогольная зависимость</li>
+                                     <li>Высшая квалификационная категория</li>
+                                     <li>Член Российской наркологической ассоциации</li>
+                                     <li>Автор 15 научных публикаций</li>
+                                 </ul>
+                             </div>
+                             <button class="popup-btn button hover" data-path="popup-change">Бесплатная консультация</button>
                          </div>
                      </a>
                  </div>
                  <div class="hiding__buttons">
                      <button class="hiding__button"></button>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="licenses-section section">
+         <div class="section__container container">
+             <div class="licenses-section__wrap section__wrap">
+                 <div class="licenses-section__title">
+                     <p>Лицензии и сертификаты</p>
+                 </div>
+                 <div class="licenses-section__subtitle">
+                     <p>Официальные документы, подтверждающие нашу профессиональную деятельность</p>
+                 </div>
+                 <div class="licenses-section__main">
+                     <div class="licenses-section__text">
+                         <p class="licenses-section__text-title">Официальная лицензированная деятельность</p>
+                         <div class="licenses-section__text-top">
+                             <p>Клиника «Авиценна» осуществляет медицинскую деятельность на основании государственной
+                                 лицензии № ЛО-02-01-001234, выданной Министерством здравоохранения Республики Башкортостан.
+                             </p>
+                             <p>Наша работа полностью соответствует требованиям законодательства РФ в сфере здравоохранения и
+                                 наркологической помощи. Мы используем только сертифицированные препараты и методики,
+                                 одобренные Минздравом России.</p>
+                         </div>
+                         <div class="text-block">
+                             <ul>
+                                 <li>Государственная лицензия на медицинскую деятельность</li>
+                                 <li>Сертификаты соответствия на оборудование и препараты</li>
+                                 <li>Дипломы и сертификаты всех специалистов</li>
+                                 <li>Разрешительная документация на методики лечения</li>
+                                 <li>Соответствие стандартам ISO 9001</li>
+                                 <li>Регулярные проверки контролирующих органов</li>
+                             </ul>
+                         </div>
+                         <p>Все документы доступны для ознакомления в клинике. Мы гарантируем полную прозрачность и
+                             законность оказываемых услуг.</p>
+                     </div>
+                     <div class="licenses-section__image-wrap">
+                         <div class="licenses-section__image">
+                             <a href="assets/img/icons/licen.jpg" class="licenses__item" data-fancybox="gallery">
+                                 <picture class="licenses__item-picture">
+                                     <source srcset="assets/img/icons/licen.webp" type="image/webp">
+                                     <img src="assets/img/icons/licen.jpg" loading="lazy" alt="" lading="lazy">
+                                 </picture>
+                                 <div class="licenses__item-discp">
+                                     <p>Лицензия на медицинскую деятельность</p>
+                                     <p>№ ЛО-02-01-001234 от 12.03.2010</p>
+                                 </div>
+                             </a>
+                             <a href="assets/img/icons/licen.jpg" class="licenses__item" data-fancybox="gallery">
+                                 <picture class="licenses__item-picture">
+                                     <source srcset="assets/img/icons/licen.webp" type="image/webp">
+                                     <img src="assets/img/icons/licen.jpg" loading="lazy" alt="" lading="lazy">
+                                 </picture>
+                                 <div class="licenses__item-discp">
+                                     <p>Лицензия на медицинскую деятельность</p>
+                                     <p>№ ЛО-02-01-001234 от 12.03.2010</p>
+                                 </div>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="licenses-section__links">
+                     <a class="licenses-section__link" href="#">Все лицензии</a>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="near section">
+         <div class="section__container container">
+             <div class="near__wrap section__wrap">
+                 <div class="near__items">
+                     <div class="near__item">
+                         <div class="near__item-text">
+                             <div class="near__item-title">
+                                 <p>Нужна помощь? Мы рядом!</p>
+                             </div>
+                             <div class="near__item-subtitle">
+                                 <p>Получите бесплатную консультацию специалиста.
+                                     Анонимно, круглосуточно, профессионально.</p>
+                             </div>
+                         </div>
+                         <div class="near__item-phone">
+                             <a href="tel:+74994563448">+7 (499) 456-34-48</a>
+                         </div>
+                     </div>
+                     <div class="near__item">
+                         <div class="near__form-wraper">
+                             <p class="near__form-title">Оставьте свой номер телефона, и мы перезвоним вам</p>
+                             <form class="near__form form">
+                                 <input type="tel" name="" placeholder="Телефон">
+                                 <button type="submit" class="button hover">Перезвоните мне</button>
+                                 <label class="custom-checkbox">
+                                     <input type="checkbox" checked="" required>
+                                     <span class="checkbox-icon">
+                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <circle cx="8" cy="8" r="7.5" stroke="#52668B" />
+                                             <circle cx="7.99913" cy="8.00011" r="4.44444" fill="#999" />
+                                         </svg>
+                                     </span>
+                                     <span>Нажимая кнопку я соглашаюсь с <noindex><a rel="nofollow"
+                                                 href="/private-politic/">политикой конфиденциальности</a></noindex> и
+                                         <noindex><a href="/polzovatelskoe-soglashenie/" rel="nofollow">пользовательским
+                                                 соглашением</a></noindex>
+                                     </span>
+                                 </label>
+                             </form>
+                         </div>
+                     </div>
                  </div>
              </div>
          </div>

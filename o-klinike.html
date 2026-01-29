@@ -371,23 +371,102 @@
     
     
     
-     <section class="banner section">
+     <section class="banner banner  section">
          <div class="section__container container">
              <div class="banner__wrap section__wrap">
                  <ul class="breadcrumbs">
                      <li><a href="/">Главная</a></li>
-                     <li><a href="#">О клинике</a></li>
-                     <li>Фотогалерея</li>
+                     <li>О клинике</li>
                  </ul>
-                 <h1 class="section__title-h1">Фотографии нашей клиники</h1>
+                 <h1 class="section__title-h1">Клиника «Авиценна» — профессиональная помощь при зависимостях</h1>
              </div>
          </div>
      </section>
-     <section class="gallery section">
+     <section class="o-klinike section">
          <div class="container">
-             <div class="gallery__wrapper hiding__wrapper">
-                 <div class="gallery__items hiding__items">
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
+             <div class="o-klinike__main">
+                 <picture class="o-klinike__picture">
+                     <source srcset="assets/img/icons/img-serv.webp" type="image/webp">
+                     <img src="assets/img/icons/img-serv.jpg" loading="lazy" alt="">
+                 </picture>
+                 <div class="o-klinike__text-block">
+                     <div class="text-block">
+                         <p>С 2010 года мы помогаем людям вернуться к трезвой и полноценной жизни. Наша клиника — это команда
+                             опытных врачей, современное оборудование и индивидуальный подход к каждому пациенту.</p>
+                         <p>Мы понимаем, что зависимость — это не просто вредная привычка, а серьезное заболевание, требующее
+                             комплексного лечения. Поэтому в нашей работе мы сочетаем медикаментозные методы, психотерапию и
+                             социальную реабилитацию.</p>
+                         <ul>
+                             <li>Более 12 лет успешной работы</li>
+                             <li>Современные методики лечения</li>
+                             <li>Квалифицированные специалисты</li>
+                             <li>Полная анонимность и конфиденциальность</li>
+                             <li>Комфортабельные условия пребывания</li>
+                         </ul>
+                     </div>
+                     <div class="o-klinike__buttons">
+                         <button class="popup-btn button hover" data-path="popup-change">Получить консультацию</button>
+                         <a class="o-klinike__button" href="#">Наши услуги</a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="near detoxification section">
+         <div class="section__container container">
+             <div class="near__wrap section__wrap">
+                 <div class="near__items">
+                     <div class="near__item">
+                         <div class="near__item-text">
+                             <div class="near__item-title">
+                                 <p>Нужна помощь? Мы рядом!</p>
+                             </div>
+                             <div class="near__item-subtitle">
+                                 <p>Получите бесплатную консультацию специалиста. Анонимно, круглосуточно, профессионально.
+                                 </p>
+                             </div>
+                         </div>
+                         <div class="near__item-phone">
+                             <a href="tel:+74994563448">+7 (499) 456-34-48</a>
+                         </div>
+                     </div>
+                     <div class="near__item">
+                         <div class="near__form-wraper">
+                             <p class="near__form-title">Оставьте свой номер телефона, и мы перезвоним вам</p>
+                             <form class="near__form form">
+                                 <input type="tel" name="" placeholder="Телефон">
+                                 <button type="submit" class="button hover">Перезвоните мне</button>
+                                 <label class="custom-checkbox">
+                                     <input type="checkbox" checked="" required>
+                                     <span class="checkbox-icon">
+                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <circle cx="8" cy="8" r="7.5" stroke="#52668B" />
+                                             <circle cx="7.99913" cy="8.00011" r="4.44444" fill="#999" />
+                                         </svg>
+                                     </span>
+                                     <span>Нажимая кнопку я соглашаюсь с <noindex><a rel="nofollow"
+                                                 href="/private-politic/">политикой конфиденциальности</a></noindex> и
+                                         <noindex><a href="/polzovatelskoe-soglashenie/" rel="nofollow">пользовательским
+                                                 соглашением</a></noindex>
+                                     </span>
+                                 </label>
+                             </form>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="fotogalerie section">
+         <div class="section__container container">
+             <div class="section__main">
+                 <p class="section__title">Фотогалерея клиники</p>
+                 <div class="section__discription">
+                     <p>Современное оборудование и комфортные условия для эффективного лечения</p>
+                 </div>
+                 <div class="gallery__items active">
+                     <a href="assets/img/icons/image.jpg" class="gallery__item active" data-fancybox="gallery">
                          <picture class="gallery__item-picture">
                              <source srcset="assets/img/icons/image.webp" type="image/webp">
                              <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
@@ -396,7 +475,7 @@
                              <p>Современное диагностическое оборудование</p>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
+                     <a href="assets/img/icons/image.jpg" class="gallery__item active" data-fancybox="gallery">
                          <picture class="gallery__item-picture">
                              <source srcset="assets/img/icons/image.webp" type="image/webp">
                              <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
@@ -405,7 +484,7 @@
                              <p>Современное диагностическое оборудование</p>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
+                     <a href="assets/img/icons/image.jpg" class="gallery__item active" data-fancybox="gallery">
                          <picture class="gallery__item-picture">
                              <source srcset="assets/img/icons/image.webp" type="image/webp">
                              <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
@@ -414,7 +493,7 @@
                              <p>Современное диагностическое оборудование</p>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
+                     <a href="assets/img/icons/image.jpg" class="gallery__item active" data-fancybox="gallery">
                          <picture class="gallery__item-picture">
                              <source srcset="assets/img/icons/image.webp" type="image/webp">
                              <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
@@ -423,7 +502,7 @@
                              <p>Современное диагностическое оборудование</p>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
+                     <a href="assets/img/icons/image.jpg" class="gallery__item active" data-fancybox="gallery">
                          <picture class="gallery__item-picture">
                              <source srcset="assets/img/icons/image.webp" type="image/webp">
                              <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
@@ -432,79 +511,7 @@
                              <p>Современное диагностическое оборудование</p>
                          </div>
                      </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
+                     <a href="assets/img/icons/image.jpg" class="gallery__item active" data-fancybox="gallery">
                          <picture class="gallery__item-picture">
                              <source srcset="assets/img/icons/image.webp" type="image/webp">
                              <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
@@ -514,8 +521,219 @@
                          </div>
                      </a>
                  </div>
-                 <div class="hiding__buttons">
-                     <button class="hiding__button"></button>
+                 <div class="fotogalerie__links">
+                     <a class="fotogalerie__link" href="#">Все фотогрфии</a>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="slider-docrors section">
+         <div class="section__container container">
+             <div class="slider-docrors__main section__main">
+                 <p class="section__title">Наши специалисты</p>
+                 <div class="section__discription">
+                     <p>Команда профессионалов с многолетним опытом работы в наркологии</p>
+                 </div>
+                 <div class="slider-docrors__swiper swiper">
+                     <div class="slider-docrors__swiper-wrapper swiper-wrapper">
+                         <div class="slider-docrors__slide swiper-slide show__item">
+                             <a href="#" class="doctors__card active">
+                                 <div class="doctors__card-photo">
+                                     <picture class="doctors__card-picture">
+                                         <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                         <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                                     </picture>
+                                     <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                                 </div>
+                                 <div class="doctors__card-info">
+                                     <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                                     <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                                     <span class="doctors__card-line"></span>
+                                     <div class="text-block">
+                                         <ul>
+                                             <li>Специализация: алкогольная зависимость</li>
+                                             <li>Высшая квалификационная категория</li>
+                                             <li>Член Российской наркологической ассоциации</li>
+                                             <li>Автор 15 научных публикаций</li>
+                                         </ul>
+                                     </div>
+                                     <button class="popup-btn button hover" data-path="popup-change">Записаться на прием</button>
+                                 </div>
+                             </a>
+                         </div>
+                         <div class="slider-docrors__slide swiper-slide show__item">
+                             <a href="#" class="doctors__card active">
+                                 <div class="doctors__card-photo">
+                                     <picture class="doctors__card-picture">
+                                         <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                         <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                                     </picture>
+                                     <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                                 </div>
+                                 <div class="doctors__card-info">
+                                     <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                                     <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                                     <span class="doctors__card-line"></span>
+                                     <div class="text-block">
+                                         <ul>
+                                             <li>Специализация: алкогольная зависимость</li>
+                                             <li>Высшая квалификационная категория</li>
+                                             <li>Член Российской наркологической ассоциации</li>
+                                             <li>Автор 15 научных публикаций</li>
+                                         </ul>
+                                     </div>
+                                    <button class="popup-btn button hover" data-path="popup-change">Записаться на прием</button>
+                                 </div>
+                             </a>
+                         </div>
+                         <div class="slider-docrors__slide swiper-slide show__item">
+                             <a href="#" class="doctors__card active">
+                                 <div class="doctors__card-photo">
+                                     <picture class="doctors__card-picture">
+                                         <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                         <img src="assets/img/icons/doc.jpg" loading="lazy" alt="" lading="lazy">
+                                     </picture>
+                                     <p class="doctors__card-experience">Опыт работы: 15 лет</p>
+                                 </div>
+                                 <div class="doctors__card-info">
+                                     <p class="doctors__card-name">Константинопольский Константин Константинович</p>
+                                     <p class="doctors__card-job">Главный врач. врач-психиатр, нарколог</p>
+                                     <span class="doctors__card-line"></span>
+                                     <div class="text-block">
+                                         <ul>
+                                             <li>Специализация: алкогольная зависимость</li>
+                                             <li>Высшая квалификационная категория</li>
+                                             <li>Член Российской наркологической ассоциации</li>
+                                             <li>Автор 15 научных публикаций</li>
+                                         </ul>
+                                     </div>
+                                     <button class="popup-btn button hover" data-path="popup-change">Записаться на прием</button>
+                                 </div>
+                             </a>
+                         </div>
+                     </div>
+                     <div class="swiper-buttons">
+                         <div class="swiper-button-next">
+                         </div>
+                         <div class="swiper-button-prev">
+                         </div>
+                     </div>
+                 </div>
+                 <div class="slider-docrors__links">
+                     <a class="slider-docrors__link" href="#">Все специалисты</a>
+                 </div>
+             </div>
+         </div>
+     </section>
+     
+     
+     
+     <section class="licenses-section section">
+         <div class="section__container container">
+             <div class="licenses-section__wrap section__wrap">
+                 <div class="licenses-section__title">
+                     <p>Лицензии и сертификаты</p>
+                 </div>
+                 <div class="licenses-section__subtitle">
+                     <p>Официальные документы, подтверждающие нашу профессиональную деятельность</p>
+                 </div>
+                 <div class="licenses-section__main">
+                     <div class="licenses-section__text">
+                         <p class="licenses-section__text-title">Официальная лицензированная деятельность</p>
+                         <div class="licenses-section__text-top">
+                             <p>Клиника «Авиценна» осуществляет медицинскую деятельность на основании государственной
+                                 лицензии № ЛО-02-01-001234, выданной Министерством здравоохранения Республики Башкортостан.
+                             </p>
+                             <p>Наша работа полностью соответствует требованиям законодательства РФ в сфере здравоохранения и
+                                 наркологической помощи. Мы используем только сертифицированные препараты и методики,
+                                 одобренные Минздравом России.</p>
+                         </div>
+                         <div class="text-block">
+                             <ul>
+                                 <li>Государственная лицензия на медицинскую деятельность</li>
+                                 <li>Сертификаты соответствия на оборудование и препараты</li>
+                                 <li>Дипломы и сертификаты всех специалистов</li>
+                                 <li>Разрешительная документация на методики лечения</li>
+                                 <li>Соответствие стандартам ISO 9001</li>
+                                 <li>Регулярные проверки контролирующих органов</li>
+                             </ul>
+                         </div>
+                         <p>Все документы доступны для ознакомления в клинике. Мы гарантируем полную прозрачность и
+                             законность оказываемых услуг.</p>
+                     </div>
+                     <div class="licenses-section__image-wrap">
+                         <div class="licenses-section__image">
+                             <a href="assets/img/icons/licen.jpg" class="licenses__item" data-fancybox="gallery">
+                                 <picture class="licenses__item-picture">
+                                     <source srcset="assets/img/icons/licen.webp" type="image/webp">
+                                     <img src="assets/img/icons/licen.jpg" loading="lazy" alt="" lading="lazy">
+                                 </picture>
+                                 <div class="licenses__item-discp">
+                                     <p>Лицензия на медицинскую деятельность</p>
+                                     <p>№ ЛО-02-01-001234 от 12.03.2010</p>
+                                 </div>
+                             </a>
+                             <a href="assets/img/icons/licen.jpg" class="licenses__item" data-fancybox="gallery">
+                                 <picture class="licenses__item-picture">
+                                     <source srcset="assets/img/icons/licen.webp" type="image/webp">
+                                     <img src="assets/img/icons/licen.jpg" loading="lazy" alt="" lading="lazy">
+                                 </picture>
+                                 <div class="licenses__item-discp">
+                                     <p>Лицензия на медицинскую деятельность</p>
+                                     <p>№ ЛО-02-01-001234 от 12.03.2010</p>
+                                 </div>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="licenses-section__links">
+                     <a class="licenses-section__link" href="#">Все лицензии</a>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="near section">
+         <div class="section__container container">
+             <div class="near__wrap section__wrap">
+                 <div class="near__items">
+                     <div class="near__item">
+                         <div class="near__item-text">
+                             <div class="near__item-title">
+                                 <p>Нужна помощь? Мы рядом!</p>
+                             </div>
+                             <div class="near__item-subtitle">
+                                 <p>Получите бесплатную консультацию специалиста.
+                                     Анонимно, круглосуточно, профессионально.</p>
+                             </div>
+                         </div>
+                         <div class="near__item-phone">
+                             <a href="tel:+74994563448">+7 (499) 456-34-48</a>
+                         </div>
+                     </div>
+                     <div class="near__item">
+                         <div class="near__form-wraper">
+                             <p class="near__form-title">Оставьте свой номер телефона, и мы перезвоним вам</p>
+                             <form class="near__form form">
+                                 <input type="tel" name="" placeholder="Телефон">
+                                 <button type="submit" class="button hover">Перезвоните мне</button>
+                                 <label class="custom-checkbox">
+                                     <input type="checkbox" checked="" required>
+                                     <span class="checkbox-icon">
+                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <circle cx="8" cy="8" r="7.5" stroke="#52668B" />
+                                             <circle cx="7.99913" cy="8.00011" r="4.44444" fill="#999" />
+                                         </svg>
+                                     </span>
+                                     <span>Нажимая кнопку я соглашаюсь с <noindex><a rel="nofollow"
+                                                 href="/private-politic/">политикой конфиденциальности</a></noindex> и
+                                         <noindex><a href="/polzovatelskoe-soglashenie/" rel="nofollow">пользовательским
+                                                 соглашением</a></noindex>
+                                     </span>
+                                 </label>
+                             </form>
+                         </div>
+                     </div>
                  </div>
              </div>
          </div>

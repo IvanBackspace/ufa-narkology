@@ -371,151 +371,549 @@
     
     
     
-     <section class="banner section">
-         <div class="section__container container">
-             <div class="banner__wrap section__wrap">
+     <section class="doctor section">
+         <div class="container">
+             <div class="doctor__wrap">
                  <ul class="breadcrumbs">
                      <li><a href="/">Главная</a></li>
-                     <li><a href="#">О клинике</a></li>
-                     <li>Фотогалерея</li>
+                     <li>Отзывы</li>
                  </ul>
-                 <h1 class="section__title-h1">Фотографии нашей клиники</h1>
+                 <div class="doctor__items">
+                     <div class="doctor__item">
+                         <div class="doctor__image">
+                             <picture class="doctor__picture">
+                                 <source srcset="assets/img/icons/doc.webp" type="image/webp">
+                                 <img src="assets/img/icons/doc.jpg" loading="lazy" alt="">
+                             </picture>
+                             <p class="doctor__experience">Опыт работы: 15 лет</p>
+                         </div>
+                         <div class="doctor__info">
+                             <h1 class="doctor__name">Константинопольский Константин Константинович</h1>
+                             <p class="doctor__job">Главный врач, психиатр-нарколог</p>
+                             <div class="doctor__advantages">
+                                 <div class="doctor__advantage">
+                                     <p class="doctor__advantage-num">5 000+</p>
+                                     <p class="doctor__advantage-text">Пациентов</p>
+                                 </div>
+                                 <div class="doctor__advantage">
+                                     <p class="doctor__advantage-num">94%</p>
+                                     <p class="doctor__advantage-text">Успешных случаев</p>
+                                 </div>
+                                 <div class="doctor__advantage">
+                                     <p class="doctor__advantage-num">15</p>
+                                     <p class="doctor__advantage-text">Научных работ</p>
+                                 </div>
+                                 <div class="doctor__advantage">
+                                     <p class="doctor__advantage-num">Высшая</p>
+                                     <p class="doctor__advantage-text">Категория</p>
+                                 </div>
+                             </div>
+                             <div class="doctor__buttons">
+                                 <button class="popup-btn button hover" data-path="popup-change">Записаться на прием</button>
+                                 <button class="popup-btn button hover doctor__button"
+                                     data-path="popup-change">Консультация</button>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="doctor__item">
+                         <div class="doctor__information-block">
+                             <p class="doctor__information-title">О враче</p>
+                             <div class="doctor__information-text">
+                                 <p>Иванов Алексей Петрович — главный врач клиники «Авиценна», психиатр-нарколог высшей
+                                     категории с 15-летним опытом работы в области лечения алкогольной и наркотической
+                                     зависимости.</p>
+                                 <p>Специализируется на комплексном лечении алкоголизма, включая вывод из запоя, кодирование
+                                     и реабилитацию. Владеет современными методиками психотерапии и медикаментозного лечения.
+                                 </p>
+                                 <p>Алексей Петрович является автором 15 научных публикаций по вопросам наркологии, регулярно
+                                     участвует в российских и международных конференциях. Член Российской наркологической
+                                     ассоциации.</p>
+                                 <p> Подход доктора Иванова основан на индивидуальном плане лечения для каждого пациента,
+                                     сочетающем медикаментозные методы, психотерапию и социальную адаптацию.</p>
+                             </div>
+                         </div>
+                         <div class="doctor__information-block">
+                             <p class="doctor__information-title">Расписание приёма</p>
+                             <div class="doctor__schedule-wrap">
+                                 <div class="doctor__schedule">
+                                     <p class="doctor__schedule-name">Понедельник</p>
+                                     <p class="doctor__schedule-day">09:00 - 15:00</p>
+                                 </div>
+                                 <div class="doctor__schedule">
+                                     <p class="doctor__schedule-name">Вторник</p>
+                                     <p class="doctor__schedule-day">10:00 - 16:00</p>
+                                 </div>
+                                 <div class="doctor__schedule">
+                                     <p class="doctor__schedule-name">Среда</p>
+                                     <p class="doctor__schedule-day">09:00 - 14:00</p>
+                                 </div>
+                                 <div class="doctor__schedule">
+                                     <p class="doctor__schedule-name">Четверг</p>
+                                     <p class="doctor__schedule-day">11:00 - 17:00</p>
+                                 </div>
+                                 <div class="doctor__schedule">
+                                     <p class="doctor__schedule-name">Пятница</p>
+                                     <p class="doctor__schedule-day">09:00 - 13:00</p>
+                                 </div>
+                                 <div class="doctor__schedule">
+                                     <p class="doctor__schedule-name">Суббота</p>
+                                     <p class="doctor__schedule-day">Выходной</p>
+                                 </div>
+                                 <div class="doctor__schedule">
+                                     <p class="doctor__schedule-name">Воскресенье</p>
+                                     <p class="doctor__schedule-day">Выходной</p>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="doctor__information-block">
+                             <p class="doctor__information-title">Образование</p>
+                             <div class="doctor__education-wrap">
+                                 <div class="doctor__education-items">
+                                     <div class="doctor__education-item">
+                                         <div class="doctor__education-top">
+                                             <p class="doctor__education-year">2015</p>
+                                             <p class="doctor__education-title">Современные методы лечения алкогольной
+                                                 зависимости</p>
+                                         </div>
+                                         <p class="doctor__education-sutitle">Российская медицинская академия последипломного
+                                             образования, Москва</p>
+                                     </div>
+                                     <div class="doctor__education-item">
+                                         <div class="doctor__education-top">
+                                             <p class="doctor__education-year">2015</p>
+                                             <p class="doctor__education-title">Современные методы лечения алкогольной
+                                                 зависимости</p>
+                                         </div>
+                                         <p class="doctor__education-sutitle">Российская медицинская академия последипломного
+                                             образования, Москва</p>
+                                     </div>
+                                     <div class="doctor__education-item">
+                                         <div class="doctor__education-top">
+                                             <p class="doctor__education-year">2015</p>
+                                             <p class="doctor__education-title">Современные методы лечения алкогольной
+                                                 зависимости</p>
+                                         </div>
+                                         <p class="doctor__education-sutitle">Российская медицинская академия последипломного
+                                             образования, Москва</p>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="doctor__information-block">
+                             <p class="doctor__information-title">Повышение квалификации</p>
+                             <div class="doctor__education-wrap">
+                                 <div class="doctor__education-items">
+                                     <div class="doctor__education-item">
+                                         <div class="doctor__education-top">
+                                             <p class="doctor__education-year">2015</p>
+                                             <p class="doctor__education-title">Современные методы лечения алкогольной
+                                                 зависимости</p>
+                                         </div>
+                                         <p class="doctor__education-sutitle">Российская медицинская академия последипломного
+                                             образования, Москва</p>
+                                     </div>
+                                     <div class="doctor__education-item">
+                                         <div class="doctor__education-top">
+                                             <p class="doctor__education-year">2015</p>
+                                             <p class="doctor__education-title">Современные методы лечения алкогольной
+                                                 зависимости</p>
+                                         </div>
+                                         <p class="doctor__education-sutitle">Российская медицинская академия последипломного
+                                             образования, Москва</p>
+                                     </div>
+                                     <div class="doctor__education-item">
+                                         <div class="doctor__education-top">
+                                             <p class="doctor__education-year">2015</p>
+                                             <p class="doctor__education-title">Современные методы лечения алкогольной
+                                                 зависимости</p>
+                                         </div>
+                                         <p class="doctor__education-sutitle">Российская медицинская академия последипломного
+                                             образования, Москва</p>
+                                     </div>
+                                     <div class="doctor__education-item">
+                                         <div class="doctor__education-top">
+                                             <p class="doctor__education-year">2015</p>
+                                             <p class="doctor__education-title">Современные методы лечения алкогольной
+                                                 зависимости</p>
+                                         </div>
+                                         <p class="doctor__education-sutitle">Российская медицинская академия последипломного
+                                             образования, Москва</p>
+                                     </div>
+                                     <div class="doctor__education-item">
+                                         <div class="doctor__education-top">
+                                             <p class="doctor__education-year">2015</p>
+                                             <p class="doctor__education-title">Современные методы лечения алкогольной
+                                                 зависимости</p>
+                                         </div>
+                                         <p class="doctor__education-sutitle">Российская медицинская академия последипломного
+                                             образования, Москва</p>
+                                     </div>
+                                     <div class="doctor__education-item">
+                                         <div class="doctor__education-top">
+                                             <p class="doctor__education-year">2015</p>
+                                             <p class="doctor__education-title">Современные методы лечения алкогольной
+                                                 зависимости</p>
+                                         </div>
+                                         <p class="doctor__education-sutitle">Российская медицинская академия последипломного
+                                             образования, Москва</p>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="doctor__information-block">
+                             <p class="doctor__information-title">Профессиональный опыт</p>
+                             <div class="doctor__education-wrap">
+                                 <div class="doctor__education-items">
+                                     <div class="doctor__education-item">
+                                         <div class="doctor__education-top">
+                                             <p class="doctor__education-year">2015</p>
+                                             <p class="doctor__education-title">Современные методы лечения алкогольной
+                                                 зависимости</p>
+                                         </div>
+                                         <p class="doctor__education-sutitle">Российская медицинская академия последипломного
+                                             образования, Москва</p>
+                                     </div>
+                                     <div class="doctor__education-item">
+                                         <div class="doctor__education-top">
+                                             <p class="doctor__education-year">2015</p>
+                                             <p class="doctor__education-title">Современные методы лечения алкогольной
+                                                 зависимости</p>
+                                         </div>
+                                         <p class="doctor__education-sutitle">Российская медицинская академия последипломного
+                                             образования, Москва</p>
+                                     </div>
+                                     <div class="doctor__education-item">
+                                         <div class="doctor__education-top">
+                                             <p class="doctor__education-year">2015</p>
+                                             <p class="doctor__education-title">Современные методы лечения алкогольной
+                                                 зависимости</p>
+                                         </div>
+                                         <p class="doctor__education-sutitle">Российская медицинская академия последипломного
+                                             образования, Москва</p>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="doctor__information-block">
+                             <p class="doctor__information-title">Дипломы и сертификаты</p>
+                             <div class="doctor__licenses-wrap">
+                                 <div class="doctor__licenses">
+                                     <a href="assets/img/icons/licen.jpg" data-fancybox="gallery">
+                                         <picture class="licenses__item-picture">
+                                             <source srcset="assets/img/icons/licen.webp" type="image/webp">
+                                             <img src="assets/img/icons/licen.jpg" loading="lazy" alt="" lading="lazy">
+                                         </picture>
+                                     </a>
+                                     <a href="assets/img/icons/licen.jpg" data-fancybox="gallery">
+                                         <picture class="licenses__item-picture">
+                                             <source srcset="assets/img/icons/licen.webp" type="image/webp">
+                                             <img src="assets/img/icons/licen.jpg" loading="lazy" alt="" lading="lazy">
+                                         </picture>
+                                     </a>
+                                     <a href="assets/img/icons/licen.jpg" data-fancybox="gallery">
+                                         <picture class="licenses__item-picture">
+                                             <source srcset="assets/img/icons/licen.webp" type="image/webp">
+                                             <img src="assets/img/icons/licen.jpg" loading="lazy" alt="" lading="lazy">
+                                         </picture>
+                                     </a>
+                                     <a href="assets/img/icons/licen.jpg" data-fancybox="gallery">
+                                         <picture class="licenses__item-picture">
+                                             <source srcset="assets/img/icons/licen.webp" type="image/webp">
+                                             <img src="assets/img/icons/licen.jpg" loading="lazy" alt="" lading="lazy">
+                                         </picture>
+                                     </a>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="doctor__information-block">
+                             <p class="doctor__information-title">Отзывы пациентов</p>
+                             <div class="doctor__reviews">
+                                 <div class="reviews__card">
+                                     <div class="reviews__card-top">
+                                         <div class="reviews__card-info">
+                                             <picture class='reviews__card-picture'>
+                                                 <source srcset='assets/img/icons/review-img.svg' type='image/svg+xml'>
+                                                 <img src='assets/img/icons/review-img.png' alt=''>
+                                             </picture>
+                                             <div class="reviews__card-fio">
+                                                 <p class="reviews__card-name">Антон, 42 года</p>
+                                                 <p class="reviews__card-services">Лечение алкоголизма</p>
+                                             </div>
+                                         </div>
+                                         <picture class='reviews__card-picture'>
+                                             <source srcset='assets/img/icons/rev-stars.svg' type='image/svg+xml'>
+                                             <img src='assets/img/icons/rev-stars.png' alt=''>
+                                         </picture>
+                                     </div>
+                                     <div class="reviews__card-bottom">
+                                         <div class="reviews__card-text">
+                                             <p>Обратился в клинику «Авиценна» по совету друга, когда уже не мог справляться
+                                                 самостоятельно. Долгое время не решался, но сейчас понимаю, что зря тянул.
+                                                 Врачи
+                                                 отнеслись с пониманием, подобрали индивидуальную программу. Прошёл полный
+                                                 курс
+                                                 лечения,
+                                                 уже год не пью. Спасибо за возвращенную жизнь!</p>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="reviews__card">
+                                     <div class="reviews__card-top">
+                                         <div class="reviews__card-info">
+                                             <picture class='reviews__card-picture'>
+                                                 <source srcset='assets/img/icons/review-img.svg' type='image/svg+xml'>
+                                                 <img src='assets/img/icons/review-img.png' alt=''>
+                                             </picture>
+                                             <div class="reviews__card-fio">
+                                                 <p class="reviews__card-name">Антон, 42 года</p>
+                                                 <p class="reviews__card-services">Лечение алкоголизма</p>
+                                             </div>
+                                         </div>
+                                         <picture class='reviews__card-picture'>
+                                             <source srcset='assets/img/icons/rev-stars.svg' type='image/svg+xml'>
+                                             <img src='assets/img/icons/rev-stars.png' alt=''>
+                                         </picture>
+                                     </div>
+                                     <div class="reviews__card-bottom">
+                                         <div class="reviews__card-text">
+                                             <p>Обратился в клинику «Авиценна» по совету друга, когда уже не мог справляться
+                                                 самостоятельно. Долгое время не решался, но сейчас понимаю, что зря тянул.
+                                                 Врачи
+                                                 отнеслись с пониманием, подобрали индивидуальную программу. Прошёл полный
+                                                 курс
+                                                 лечения,
+                                                 уже год не пью. Спасибо за возвращенную жизнь!</p>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="reviews__card">
+                                     <div class="reviews__card-top">
+                                         <div class="reviews__card-info">
+                                             <picture class='reviews__card-picture'>
+                                                 <source srcset='assets/img/icons/review-img.svg' type='image/svg+xml'>
+                                                 <img src='assets/img/icons/review-img.png' alt=''>
+                                             </picture>
+                                             <div class="reviews__card-fio">
+                                                 <p class="reviews__card-name">Антон, 42 года</p>
+                                                 <p class="reviews__card-services">Лечение алкоголизма</p>
+                                             </div>
+                                         </div>
+                                         <picture class='reviews__card-picture'>
+                                             <source srcset='assets/img/icons/rev-stars.svg' type='image/svg+xml'>
+                                             <img src='assets/img/icons/rev-stars.png' alt=''>
+                                         </picture>
+                                     </div>
+                                     <div class="reviews__card-bottom">
+                                         <div class="reviews__card-text">
+                                             <p>Обратился в клинику «Авиценна» по совету друга, когда уже не мог справляться
+                                                 самостоятельно. Долгое время не решался, но сейчас понимаю, что зря тянул.
+                                                 Врачи
+                                                 отнеслись с пониманием, подобрали индивидуальную программу. Прошёл полный
+                                                 курс
+                                                 лечения,
+                                                 уже год не пью. Спасибо за возвращенную жизнь!</p>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="doctor__information-block">
+                             <div class="doctor__form-wrap">
+                                 <p class="doctor__information-title">Оставить отзыв о враче</p>
+                                 <form class="doctor__form form">
+                                     <div class="doctor__form-block">
+                                         <input type="tel" name="" placeholder="Телефон">
+                                         <section class="full-stars">
+                                             <p class="full-stars__title">Оценка:</p>
+                                             <div class="full-stars__main">
+                                                 <div class="rating-group">
+                                                     <input name="fst" value="0" type="radio" disabled="" checked="">
+                                                     <label for="fst-1">
+                                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                             <path
+                                                                 d="M7.15316 3.40838C8.41981 1.13613 9.05314 0 10 0C10.9469 0 11.5802 1.13613 12.8468 3.40837L13.1745 3.99623C13.5345 4.64193 13.7144 4.96479 13.9951 5.17781C14.2757 5.39083 14.6251 5.4699 15.3241 5.62805L15.9605 5.77203C18.4201 6.32855 19.65 6.60682 19.9426 7.54773C20.2352 8.48864 19.3968 9.46907 17.7199 11.4299L17.2861 11.9372C16.8096 12.4944 16.5713 12.773 16.4641 13.1177C16.357 13.4624 16.393 13.8341 16.465 14.5776L16.5306 15.2544C16.7841 17.8706 16.9109 19.1787 16.1449 19.7602C15.3788 20.3417 14.2273 19.8115 11.9243 18.7512L11.3285 18.4768C10.6741 18.1755 10.3469 18.0249 10 18.0248C9.65315 18.0248 9.32593 18.1755 8.67149 18.4768L8.07567 18.7512C5.77267 19.8115 4.62118 20.3417 3.85515 19.7602C3.08912 19.1787 3.21588 17.8706 3.4694 15.2544L3.53498 14.5776C3.60703 13.8341 3.64305 13.4624 3.53586 13.1177C3.42868 12.773 3.19043 12.4944 2.71392 11.9372L2.2801 11.4299C0.603249 9.46907 -0.235175 8.48864 0.057421 7.54773C0.350017 6.60682 1.57986 6.32856 4.03954 5.77203L4.67589 5.62805C5.37485 5.4699 5.72433 5.39083 6.00494 5.17781C6.28555 4.96479 6.46553 4.64194 6.82547 3.99623L7.15316 3.40838Z"
+                                                                 fill="#E8E8E8" />
+                                                         </svg>
+                                                     </label>
+                                                     <input name="fst" id="fst-1" value="1" type="radio">
+                                                     <label for="fst-2">
+                                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                             <path
+                                                                 d="M7.15316 3.40838C8.41981 1.13613 9.05314 0 10 0C10.9469 0 11.5802 1.13613 12.8468 3.40837L13.1745 3.99623C13.5345 4.64193 13.7144 4.96479 13.9951 5.17781C14.2757 5.39083 14.6251 5.4699 15.3241 5.62805L15.9605 5.77203C18.4201 6.32855 19.65 6.60682 19.9426 7.54773C20.2352 8.48864 19.3968 9.46907 17.7199 11.4299L17.2861 11.9372C16.8096 12.4944 16.5713 12.773 16.4641 13.1177C16.357 13.4624 16.393 13.8341 16.465 14.5776L16.5306 15.2544C16.7841 17.8706 16.9109 19.1787 16.1449 19.7602C15.3788 20.3417 14.2273 19.8115 11.9243 18.7512L11.3285 18.4768C10.6741 18.1755 10.3469 18.0249 10 18.0248C9.65315 18.0248 9.32593 18.1755 8.67149 18.4768L8.07567 18.7512C5.77267 19.8115 4.62118 20.3417 3.85515 19.7602C3.08912 19.1787 3.21588 17.8706 3.4694 15.2544L3.53498 14.5776C3.60703 13.8341 3.64305 13.4624 3.53586 13.1177C3.42868 12.773 3.19043 12.4944 2.71392 11.9372L2.2801 11.4299C0.603249 9.46907 -0.235175 8.48864 0.057421 7.54773C0.350017 6.60682 1.57986 6.32856 4.03954 5.77203L4.67589 5.62805C5.37485 5.4699 5.72433 5.39083 6.00494 5.17781C6.28555 4.96479 6.46553 4.64194 6.82547 3.99623L7.15316 3.40838Z"
+                                                                 fill="#E8E8E8" />
+                                                         </svg>
+                                                     </label>
+                                                     <input name="fst" id="fst-2" value="2" type="radio">
+                                                     <label for="fst-3">
+                                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                             <path
+                                                                 d="M7.15316 3.40838C8.41981 1.13613 9.05314 0 10 0C10.9469 0 11.5802 1.13613 12.8468 3.40837L13.1745 3.99623C13.5345 4.64193 13.7144 4.96479 13.9951 5.17781C14.2757 5.39083 14.6251 5.4699 15.3241 5.62805L15.9605 5.77203C18.4201 6.32855 19.65 6.60682 19.9426 7.54773C20.2352 8.48864 19.3968 9.46907 17.7199 11.4299L17.2861 11.9372C16.8096 12.4944 16.5713 12.773 16.4641 13.1177C16.357 13.4624 16.393 13.8341 16.465 14.5776L16.5306 15.2544C16.7841 17.8706 16.9109 19.1787 16.1449 19.7602C15.3788 20.3417 14.2273 19.8115 11.9243 18.7512L11.3285 18.4768C10.6741 18.1755 10.3469 18.0249 10 18.0248C9.65315 18.0248 9.32593 18.1755 8.67149 18.4768L8.07567 18.7512C5.77267 19.8115 4.62118 20.3417 3.85515 19.7602C3.08912 19.1787 3.21588 17.8706 3.4694 15.2544L3.53498 14.5776C3.60703 13.8341 3.64305 13.4624 3.53586 13.1177C3.42868 12.773 3.19043 12.4944 2.71392 11.9372L2.2801 11.4299C0.603249 9.46907 -0.235175 8.48864 0.057421 7.54773C0.350017 6.60682 1.57986 6.32856 4.03954 5.77203L4.67589 5.62805C5.37485 5.4699 5.72433 5.39083 6.00494 5.17781C6.28555 4.96479 6.46553 4.64194 6.82547 3.99623L7.15316 3.40838Z"
+                                                                 fill="#E8E8E8" />
+                                                         </svg>
+                                                     </label>
+                                                     <input name="fst" id="fst-3" value="3" type="radio">
+                                                     <label for="fst-4">
+                                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                             <path
+                                                                 d="M7.15316 3.40838C8.41981 1.13613 9.05314 0 10 0C10.9469 0 11.5802 1.13613 12.8468 3.40837L13.1745 3.99623C13.5345 4.64193 13.7144 4.96479 13.9951 5.17781C14.2757 5.39083 14.6251 5.4699 15.3241 5.62805L15.9605 5.77203C18.4201 6.32855 19.65 6.60682 19.9426 7.54773C20.2352 8.48864 19.3968 9.46907 17.7199 11.4299L17.2861 11.9372C16.8096 12.4944 16.5713 12.773 16.4641 13.1177C16.357 13.4624 16.393 13.8341 16.465 14.5776L16.5306 15.2544C16.7841 17.8706 16.9109 19.1787 16.1449 19.7602C15.3788 20.3417 14.2273 19.8115 11.9243 18.7512L11.3285 18.4768C10.6741 18.1755 10.3469 18.0249 10 18.0248C9.65315 18.0248 9.32593 18.1755 8.67149 18.4768L8.07567 18.7512C5.77267 19.8115 4.62118 20.3417 3.85515 19.7602C3.08912 19.1787 3.21588 17.8706 3.4694 15.2544L3.53498 14.5776C3.60703 13.8341 3.64305 13.4624 3.53586 13.1177C3.42868 12.773 3.19043 12.4944 2.71392 11.9372L2.2801 11.4299C0.603249 9.46907 -0.235175 8.48864 0.057421 7.54773C0.350017 6.60682 1.57986 6.32856 4.03954 5.77203L4.67589 5.62805C5.37485 5.4699 5.72433 5.39083 6.00494 5.17781C6.28555 4.96479 6.46553 4.64194 6.82547 3.99623L7.15316 3.40838Z"
+                                                                 fill="#E8E8E8" />
+                                                         </svg>
+                                                     </label>
+                                                     <input name="fst" id="fst-4" value="4" type="radio">
+                                                     <label for="fst-5">
+                                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                             <path
+                                                                 d="M7.15316 3.40838C8.41981 1.13613 9.05314 0 10 0C10.9469 0 11.5802 1.13613 12.8468 3.40837L13.1745 3.99623C13.5345 4.64193 13.7144 4.96479 13.9951 5.17781C14.2757 5.39083 14.6251 5.4699 15.3241 5.62805L15.9605 5.77203C18.4201 6.32855 19.65 6.60682 19.9426 7.54773C20.2352 8.48864 19.3968 9.46907 17.7199 11.4299L17.2861 11.9372C16.8096 12.4944 16.5713 12.773 16.4641 13.1177C16.357 13.4624 16.393 13.8341 16.465 14.5776L16.5306 15.2544C16.7841 17.8706 16.9109 19.1787 16.1449 19.7602C15.3788 20.3417 14.2273 19.8115 11.9243 18.7512L11.3285 18.4768C10.6741 18.1755 10.3469 18.0249 10 18.0248C9.65315 18.0248 9.32593 18.1755 8.67149 18.4768L8.07567 18.7512C5.77267 19.8115 4.62118 20.3417 3.85515 19.7602C3.08912 19.1787 3.21588 17.8706 3.4694 15.2544L3.53498 14.5776C3.60703 13.8341 3.64305 13.4624 3.53586 13.1177C3.42868 12.773 3.19043 12.4944 2.71392 11.9372L2.2801 11.4299C0.603249 9.46907 -0.235175 8.48864 0.057421 7.54773C0.350017 6.60682 1.57986 6.32856 4.03954 5.77203L4.67589 5.62805C5.37485 5.4699 5.72433 5.39083 6.00494 5.17781C6.28555 4.96479 6.46553 4.64194 6.82547 3.99623L7.15316 3.40838Z"
+                                                                 fill="#E8E8E8" />
+                                                         </svg>
+                                                     </label>
+                                                     <input name="fst" id="fst-5" value="5" type="radio">
+                                                 </div>
+                                             </div>
+                                         </section>
+                                     </div>
+                                     <textarea placeholder="Ваш отзыв" name=""></textarea>
+                                     <div class="doctor__form-block">
+                                         <button type="submit" class="button hover">Отправить отзыв</button>
+                                         <label class="custom-checkbox">
+                                             <input type="checkbox" checked="" required>
+                                             <span class="checkbox-icon">
+                                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                     <circle cx="8" cy="8" r="7.5" stroke="#52668B" />
+                                                     <circle cx="7.99913" cy="8.00011" r="4.44444" fill="#999" />
+                                                 </svg>
+                                             </span>
+                                             <span>Нажимая кнопку я соглашаюсь с <noindex><a rel="nofollow"
+                                                         href="/private-politic/">политикой конфиденциальности</a></noindex>
+                                                 и
+                                                 <noindex><a href="/polzovatelskoe-soglashenie/"
+                                                         rel="nofollow">пользовательским
+                                                         соглашением</a></noindex>
+                                             </span>
+                                         </label>
+                                     </div>
+                                 </form>
+                             </div>
+     
+     
+                         </div>
+                     </div>
+                 </div>
              </div>
          </div>
      </section>
-     <section class="gallery section">
-         <div class="container">
-             <div class="gallery__wrapper hiding__wrapper">
-                 <div class="gallery__items hiding__items">
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
-                     <a href="assets/img/icons/image.jpg" class="gallery__item hiding__item active" data-fancybox="gallery">
-                         <picture class="gallery__item-picture">
-                             <source srcset="assets/img/icons/image.webp" type="image/webp">
-                             <img src="assets/img/icons/image.jpg" loading="lazy" alt="">
-                         </picture>
-                         <div class="gallery__item-discp">
-                             <p>Современное диагностическое оборудование</p>
-                         </div>
-                     </a>
+     <section class="licenses-section section">
+         <div class="section__container container">
+             <div class="licenses-section__wrap section__wrap">
+                 <div class="licenses-section__title">
+                     <p>Лицензии и сертификаты</p>
                  </div>
-                 <div class="hiding__buttons">
-                     <button class="hiding__button"></button>
+                 <div class="licenses-section__subtitle">
+                     <p>Официальные документы, подтверждающие нашу профессиональную деятельность</p>
+                 </div>
+                 <div class="licenses-section__main">
+                     <div class="licenses-section__text">
+                         <p class="licenses-section__text-title">Официальная лицензированная деятельность</p>
+                         <div class="licenses-section__text-top">
+                             <p>Клиника «Авиценна» осуществляет медицинскую деятельность на основании государственной
+                                 лицензии № ЛО-02-01-001234, выданной Министерством здравоохранения Республики Башкортостан.
+                             </p>
+                             <p>Наша работа полностью соответствует требованиям законодательства РФ в сфере здравоохранения и
+                                 наркологической помощи. Мы используем только сертифицированные препараты и методики,
+                                 одобренные Минздравом России.</p>
+                         </div>
+                         <div class="text-block">
+                             <ul>
+                                 <li>Государственная лицензия на медицинскую деятельность</li>
+                                 <li>Сертификаты соответствия на оборудование и препараты</li>
+                                 <li>Дипломы и сертификаты всех специалистов</li>
+                                 <li>Разрешительная документация на методики лечения</li>
+                                 <li>Соответствие стандартам ISO 9001</li>
+                                 <li>Регулярные проверки контролирующих органов</li>
+                             </ul>
+                         </div>
+                         <p>Все документы доступны для ознакомления в клинике. Мы гарантируем полную прозрачность и
+                             законность оказываемых услуг.</p>
+                     </div>
+                     <div class="licenses-section__image-wrap">
+                         <div class="licenses-section__image">
+                             <a href="assets/img/icons/licen.jpg" class="licenses__item" data-fancybox="gallery">
+                                 <picture class="licenses__item-picture">
+                                     <source srcset="assets/img/icons/licen.webp" type="image/webp">
+                                     <img src="assets/img/icons/licen.jpg" loading="lazy" alt="" lading="lazy">
+                                 </picture>
+                                 <div class="licenses__item-discp">
+                                     <p>Лицензия на медицинскую деятельность</p>
+                                     <p>№ ЛО-02-01-001234 от 12.03.2010</p>
+                                 </div>
+                             </a>
+                             <a href="assets/img/icons/licen.jpg" class="licenses__item" data-fancybox="gallery">
+                                 <picture class="licenses__item-picture">
+                                     <source srcset="assets/img/icons/licen.webp" type="image/webp">
+                                     <img src="assets/img/icons/licen.jpg" loading="lazy" alt="" lading="lazy">
+                                 </picture>
+                                 <div class="licenses__item-discp">
+                                     <p>Лицензия на медицинскую деятельность</p>
+                                     <p>№ ЛО-02-01-001234 от 12.03.2010</p>
+                                 </div>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="licenses-section__links">
+                     <a class="licenses-section__link" href="#">Все лицензии</a>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="near section">
+         <div class="section__container container">
+             <div class="near__wrap section__wrap">
+                 <div class="near__items">
+                     <div class="near__item">
+                         <div class="near__item-text">
+                             <div class="near__item-title">
+                                 <p>Нужна помощь? Мы рядом!</p>
+                             </div>
+                             <div class="near__item-subtitle">
+                                 <p>Получите бесплатную консультацию специалиста.
+                                     Анонимно, круглосуточно, профессионально.</p>
+                             </div>
+                         </div>
+                         <div class="near__item-phone">
+                             <a href="tel:+74994563448">+7 (499) 456-34-48</a>
+                         </div>
+                     </div>
+                     <div class="near__item">
+                         <div class="near__form-wraper">
+                             <p class="near__form-title">Оставьте свой номер телефона, и мы перезвоним вам</p>
+                             <form class="near__form form">
+                                 <input type="tel" name="" placeholder="Телефон">
+                                 <button type="submit" class="button hover">Перезвоните мне</button>
+                                 <label class="custom-checkbox">
+                                     <input type="checkbox" checked="" required>
+                                     <span class="checkbox-icon">
+                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <circle cx="8" cy="8" r="7.5" stroke="#52668B" />
+                                             <circle cx="7.99913" cy="8.00011" r="4.44444" fill="#999" />
+                                         </svg>
+                                     </span>
+                                     <span>Нажимая кнопку я соглашаюсь с <noindex><a rel="nofollow"
+                                                 href="/private-politic/">политикой конфиденциальности</a></noindex> и
+                                         <noindex><a href="/polzovatelskoe-soglashenie/" rel="nofollow">пользовательским
+                                                 соглашением</a></noindex>
+                                     </span>
+                                 </label>
+                             </form>
+                         </div>
+                     </div>
                  </div>
              </div>
          </div>
